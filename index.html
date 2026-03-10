@@ -1,1 +1,4174 @@
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pretty Women-Beauty Academy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Clean Beauty Spa with predefined web elements which helps you to build your own site. These template is suitable for spa, beauty, care, girly, hair, health, beauty parlour, massage, skincare, saloon, make up, physiotherapy, salon, wellness, yoga website. Yoga & Meditation centers, Barbershop, Health & Wellness Centers, Medical, Physiotherapy, Cosmetic Treatment centers, ayurvedic treatments, pedicure, manicure procedures.">
+        <meta name="keywords" content="spa, beauty, care, girly, hair, health, beauty parlour, massage, skincare, saloon, make up, physiotherapy, salon, wellness, yoga website. Yoga & Meditation centers, Barbershop, Health & Wellness Centers, Medical, Physiotherapy, Cosmetic Treatment centers, ayurvedic treatments, pedicure, manicure procedures">
+        <meta name="author" content="ThemeWar">
+
+        <!-- Start Include All CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="css/animate.css"/>
+        <link rel="stylesheet" href="css/icofont.css"/>
+        <link rel="stylesheet" href="css/nounicon.css"/>
+        <link rel="stylesheet" href="css/makeover-icon.css"/>
+        <link rel="stylesheet" href="css/nice-select.css"/>
+        <link rel="stylesheet" href="css/jquery.datetimepicker.min.css"/>
+        <link rel="stylesheet" href="css/slick.css"/>
+        <link rel="stylesheet" href="css/lightcase.css"/>
+        <link rel="stylesheet" href="css/lightslider.css"/>
+        
+        <!-- Revolution Slider Setting CSS -->
+        <link rel="stylesheet" href="css/settings.css">
+
+        <link rel="stylesheet" href="css/preset.css"/>
+        <link rel="stylesheet" href="css/ignore_for_wp.css"/>
+        <link rel="stylesheet" href="css/theme.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
+        <!-- End Include All CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icofont/1.0.1/icofont.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icofont/1.0.1/icofont.css">
+
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!-- Favicon Icon -->
+        <link rel="icon"  type="image/png" href="images/favicon.png">
+        <!-- Favicon Icon -->
+         <style>
+
+.popupOverlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.7);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+}
+
+.popupForm{
+background:#111;
+padding:30px;
+border-radius:15px;
+width:320px;
+text-align:center;
+position:relative;
+border:2px solid #EFA392;
+box-shadow:0 0 15px #EFA392,0 0 25px #ffae00ab;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{
+box-shadow:0 0 10px #EFA392;
+}
+to{
+box-shadow:0 0 25px #f85f3c;
+}
+}
+
+.popupForm h2{
+color:white;
+margin-bottom:20px;
+}
+
+.popupForm input,
+.popupForm select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+.popupForm button{
+background:#EFA392;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+border-radius:6px;
+cursor:pointer;
+}
+
+.closePopup{
+position:absolute;
+top:10px;
+right:15px;
+font-size:22px;
+color:white;
+cursor:pointer;
+display:none;
+}
+.mkov-scissors:before {
+content: "\e915";
+}
+/* mobile bottom menu */
+
+
+
+
+.bottom-nav{
+
+position:fixed;
+bottom:20px;
+
+width:360px;
+height:70px;
+
+background:#e5e5e5;
+
+border-radius:20px;
+
+display:flex;
+justify-content:space-around;
+align-items:center;
+
+padding:0 10px;
+
+}
+
+.menu{
+
+position:relative;
+
+display:flex;
+flex-direction:column;
+
+align-items:center;
+justify-content:center;
+
+width:60px;
+
+cursor:pointer;
+
+z-index:2;
+
+}
+
+.menu i{
+
+font-size:22px;
+
+color:#efa392;
+
+transition:0.35s;
+
+}
+
+.menu span{
+
+font-size:13px;
+
+margin-top:5px;
+
+opacity:0;
+
+transition:0.35s;
+
+}
+
+.menu.active i{
+
+transform:translateY(-18px);
+
+color:white;
+
+}
+
+.menu.active span{
+
+opacity:1;
+
+color:black;
+
+}
+
+.indicator{
+
+position:absolute;
+
+top:-25px;
+
+width:60px;
+
+height:60px;
+
+background:#efa392;
+
+border-radius:50%;
+
+border:6px solid #1f2125;
+
+transition:0.35s;
+
+z-index:1;
+
+}
+
+.bottom-nav .menu:nth-child(1).active ~ .indicator{
+transform:translateX(-140px);
+}
+
+.bottom-nav .menu:nth-child(2).active ~ .indicator{
+transform:translateX(-70px);
+}
+
+.bottom-nav .menu:nth-child(3).active ~ .indicator{
+transform:translateX(0px);
+}
+
+.bottom-nav .menu:nth-child(4).active ~ .indicator{
+transform:translateX(70px);
+}
+
+.bottom-nav .menu:nth-child(5).active ~ .indicator{
+transform:translateX(140px);
+}
+.bottom-nav{
+
+position:fixed;
+bottom:20px;
+
+width:360px;
+height:70px;
+
+background:#e5e5e5;
+
+border-radius:20px;
+
+display:flex;
+justify-content:space-around;
+align-items:center;
+
+padding:0 10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+/* ADD THESE */
+
+z-index:9999;
+left:50%;
+transform:translateX(-50%);
+}
+/* adding for only mobile view */
+/* Mobile only */
+.bottom-nav{
+display:flex;
+}
+
+/* Tablet and Desktop hide */
+@media (min-width:768px){
+.bottom-nav{
+display:none;
+}
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    background-color: #ffffff00;
+}
+
+
+
+.course-slider{
+margin-top:40px;
+}
+
+.course-slide{
+text-align:center;
+padding:20px;
+}
+
+.course-slide img{
+width:250px;
+margin:auto;
+display:block;
+margin-bottom:15px;
+
+/* Glassmorphism effect */
+padding:10px;
+border-radius:16px;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+border:1px solid rgba(255,255,255,0.3);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.course-slide h5{
+font-size:18px;
+font-weight:600;
+margin-bottom:8px;
+}
+
+.course-slide p{
+font-size:14px;
+color:#666;
+}
+
+.slider-nav{
+margin-top:20px;
+}
+
+.slider-nav img{
+width:80px;
+height:80px;
+object-fit:cover;
+border-radius:10px;
+cursor:pointer;
+opacity:.6;
+transition:.3s;
+}
+
+.slider-nav .slick-current img{
+opacity:1;
+border:3px solid #ff5e8a;
+}
+
+@media(max-width:768px){
+
+.slider-nav img{
+width:60px;
+height:60px;
+}
+
+}
+/* Desktop Image Size Increase */
+@media (min-width: 992px) {
+
+.course-slide img{
+height: 250px;
+width: auto;
+object-fit: cover;
+}
+
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --gold:    #c9a96e;
+  --gold-lt: #e8d5b0;
+  --rose:    #d4726a;
+  --dark:    #1a1014;
+  --cream:   #faf6f0;
+}
+
+
+/* ── SECTION WRAPPER ── */
+.why-section {
+  position: relative;
+  padding: 120px 0 140px;
+  overflow: hidden;
+  background: var(--dark);
+}
+
+.why-section::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 10% 20%, rgba(201,169,110,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 90% 80%, rgba(212,114,106,0.07) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.noise-overlay {
+  position: absolute; inset: 0; pointer-events: none; z-index: 1; opacity: .03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px;
+}
+
+.diag-line {
+  position: absolute; top: 0; left: 50%;
+  width: 1px; height: 100%;
+  background: linear-gradient(180deg, transparent, rgba(201,169,110,0.15) 30%, rgba(201,169,110,0.15) 70%, transparent);
+  transform: skewX(-6deg);
+  pointer-events: none;
+}
+
+.orb { position: absolute; border-radius: 50%; pointer-events: none; filter: blur(80px); animation: orbFloat 8s ease-in-out infinite; }
+.orb-1 { width: 400px; height: 400px; top: -100px; left: -100px; background: rgba(201,169,110,0.06); animation-delay: 0s; }
+.orb-2 { width: 300px; height: 300px; bottom: -80px; right: -80px; background: rgba(212,114,106,0.07); animation-delay: 3s; }
+.orb-3 { width: 200px; height: 200px; top: 40%; left: 30%; background: rgba(201,169,110,0.04); animation-delay: 5s; }
+@keyframes orbFloat { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-30px) scale(1.05); } }
+
+/* ── CONTAINER ── */
+.container { max-width: 1280px; margin: 0 auto; padding: 0 40px; position: relative; z-index: 5; }
+
+/* ── SECTION HEADER ── */
+.section-header { text-align: center; margin-bottom: 90px; }
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 14px;
+  font-size: 11px; letter-spacing: 4px; text-transform: uppercase;
+  color: var(--gold); font-weight: 600; margin-bottom: 20px;
+}
+.eyebrow::before, .eyebrow::after {
+  content: ''; display: block; width: 40px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+.eyebrow::after { background: linear-gradient(90deg, var(--gold), transparent); }
+
+.section-header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  font-weight: 300; line-height: 1.1;
+  color: var(--cream); margin-bottom: 6px;
+}
+.section-header h2 em { font-style: italic; color: var(--gold); font-weight: 400; }
+.section-header .sub {
+  font-size: 15px; line-height: 1.75;
+  color: rgba(250,246,240,0.55);
+  max-width: 560px; margin: 20px auto 0; font-weight: 300;
+}
+
+/* ── CARDS GRID ── */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  /* KEY FIX: all rows same height */
+  grid-auto-rows: 1fr;
+  align-items: stretch;
+}
+
+/* ── SINGLE CARD ── */
+.why-card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: default;
+  /* FIXED HEIGHT for all cards — no more .tall difference */
+  height: 420px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.why-card.visible { opacity: 1; transform: translateY(0); }
+.why-card:nth-child(2) { transition-delay: 0.1s; }
+.why-card:nth-child(3) { transition-delay: 0.2s; }
+.why-card:nth-child(4) { transition-delay: 0.3s; }
+
+/* Image layer */
+.card-img {
+  position: absolute; inset: 0;
+  background-size: cover; background-position: center;
+  transition: transform 0.8s cubic-bezier(.25,.46,.45,.94);
+  z-index: 0;
+}
+.why-card:hover .card-img { transform: scale(1.08); }
+
+/* Dark overlay */
+.card-overlay {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(180deg,
+    rgba(26,16,20,0.3) 0%,
+    rgba(26,16,20,0.55) 40%,
+    rgba(26,16,20,0.92) 100%);
+  transition: background 0.5s ease;
+}
+.why-card:hover .card-overlay {
+  background: linear-gradient(180deg,
+    rgba(26,16,20,0.45) 0%,
+    rgba(26,16,20,0.65) 40%,
+    rgba(26,16,20,0.97) 100%);
+}
+
+/* Gold shimmer line */
+.card-shimmer {
+  position: absolute; top: 0; left: -100%; width: 60%; height: 100%;
+  background: linear-gradient(105deg, transparent 40%, rgba(201,169,110,0.12) 50%, transparent 60%);
+  z-index: 3; transition: left 0.7s ease; pointer-events: none;
+}
+.why-card:hover .card-shimmer { left: 150%; }
+
+/* ── CARD BODY: FIXED LAYOUT — icon+title+rule all pinned ── */
+.card-body {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  padding: 24px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  /* Number at top-right, content pinned to bottom */
+  justify-content: flex-end;
+}
+
+/* Number badge — absolute top-right */
+.card-num {
+  position: absolute; top: 20px; right: 24px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.5rem; font-weight: 300; font-style: italic;
+  color: rgba(201,169,110,0.2);
+  line-height: 1;
+  transition: color 0.4s, transform 0.4s;
+  user-select: none;
+}
+.why-card:hover .card-num { color: rgba(201,169,110,0.4); transform: scale(1.1); }
+
+/* Icon box — fixed size, no transform that shifts layout */
+.card-icon-wrap {
+  width: 54px; height: 54px; flex-shrink: 0;
+  border: 1.5px solid rgba(201,169,110,0.4);
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 16px;
+  background: rgba(201,169,110,0.08);
+  transition: background 0.4s, border-color 0.4s, transform 0.4s;
+}
+.why-card:hover .card-icon-wrap {
+  background: rgba(201,169,110,0.2);
+  border-color: var(--gold);
+  transform: translateY(-4px);
+}
+.card-icon-wrap svg { width: 26px; height: 26px; fill: var(--gold); transition: transform 0.4s; }
+.why-card:hover .card-icon-wrap svg { transform: scale(1.15) rotate(-5deg); }
+
+/* Card title — fixed height via line-height */
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem; font-weight: 400; font-style: italic;
+  color: var(--cream);
+  /* Fixed height so all titles occupy same space */
+  min-height: 2.2em;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+.why-card:hover .card-title { color: var(--gold-lt); }
+
+/* Gold rule */
+.card-rule {
+  width: 32px; height: 1.5px;
+  background: var(--gold);
+  margin-bottom: 12px; flex-shrink: 0;
+  transition: width 0.5s ease;
+}
+.why-card:hover .card-rule { width: 56px; }
+
+/* Card text — fixed height via line-clamp */
+.card-text {
+  font-size: 13px; line-height: 1.75;
+  color: rgba(250,246,240,0.65);
+  font-weight: 300;
+  /* Clamp to 3 lines so all descriptions same height */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  opacity: 0.85;
+  transition: opacity 0.4s;
+}
+.why-card:hover .card-text { opacity: 1; }
+
+/* Gold border bottom on hover */
+.card-border-bottom {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  transform: scaleX(0);
+  transition: transform 0.5s cubic-bezier(.22,1,.36,1);
+  z-index: 4;
+}
+.why-card:hover .card-border-bottom { transform: scaleX(1); }
+
+/* ── STATS BAR ── */
+.stats-bar {
+  margin-top: 80px;
+  border: 1px solid rgba(201,169,110,0.18);
+  border-radius: 20px;
+  padding: 48px 60px;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(10px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  position: relative; overflow: hidden;
+  opacity: 0; transform: translateY(30px);
+  transition: opacity 0.8s 0.4s ease, transform 0.8s 0.4s ease;
+}
+.stats-bar.visible { opacity: 1; transform: translateY(0); }
+.stats-bar::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(201,169,110,0.04) 0%, transparent 60%);
+  pointer-events: none;
+}
+.stat-item { text-align: center; padding: 0 20px; position: relative; }
+.stat-item:not(:last-child)::after {
+  content: ''; position: absolute; right: 0; top: 10%; bottom: 10%;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, rgba(201,169,110,0.3), transparent);
+}
+.stat-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.4rem, 3.5vw, 3.6rem);
+  font-weight: 300; font-style: italic;
+  color: var(--gold); display: block; line-height: 1; margin-bottom: 8px;
+}
+.stat-label { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: rgba(250,246,240,0.5); font-weight: 600; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 1100px) {
+  .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .why-card { height: 400px; }
+}
+@media (max-width: 700px) {
+  .why-section { padding: 80px 0 100px; }
+  .container { padding: 0 20px; }
+  .cards-grid { grid-template-columns: 1fr; gap: 16px; }
+  .why-card { height: 360px; }
+  .section-header { margin-bottom: 60px; }
+  .stats-bar { grid-template-columns: repeat(2, 1fr); padding: 36px 24px; gap: 24px; }
+  .stat-item:not(:last-child)::after { display: none; }
+  .stat-item:nth-child(1), .stat-item:nth-child(2) {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(201,169,110,0.18);
+  }
+}
+@media (max-width: 480px) {
+  .section-header h2 { font-size: 2.4rem; }
+  .why-card { height: 320px; }
+  .card-title { font-size: 1.3rem; }
+}
+
+/* Courses tabs */
+.ps-section {
+  --ps-gold:    #c9a96e;
+  --ps-gold-lt: #e8d5b0;
+  --ps-rose:    #d4726a;
+  --ps-blush:   #f2e4df;
+  --ps-dark:    #1a1014;
+  --ps-mid:     #2e1e24;
+  --ps-cream:   #faf6f0;
+  --ps-text:    #4a2e35;
+  --ps-card-bg: #211318;
+  --ps-border:  rgba(201,169,110,0.15);
+  --ps-radius:  18px;
+  --ps-font-d:  'Cormorant Garamond', Georgia, serif;
+  --ps-font-b:  'Josefin Sans', sans-serif;
+
+  position: relative;
+  padding: 110px 0 130px;
+  background: var(--ps-dark);
+  overflow: hidden;
+  font-family: var(--ps-font-b);
+}
+
+/* ── BG mesh ── */
+.ps-section::before {
+  content: '';
+  position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background:
+    radial-gradient(ellipse 60% 50% at 5%  10%, rgba(201,169,110,.08) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 60% at 95% 90%, rgba(212,114,106,.08) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(201,169,110,.04) 0%, transparent 65%);
+}
+/* ── Dot grid ── */
+.ps-section::after {
+  content: '';
+  position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background-image: radial-gradient(rgba(201,169,110,.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+  -webkit-mask-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.4) 20%,rgba(0,0,0,.4) 80%,transparent 100%);
+  mask-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,.4) 20%,rgba(0,0,0,.4) 80%,transparent 100%);
+}
+
+/* ── Orbs ── */
+.ps-orb {
+  position: absolute; border-radius: 50%;
+  pointer-events: none; filter: blur(80px); opacity: .5;
+  animation: psOrbFloat 9s ease-in-out infinite alternate; z-index: 0;
+}
+.ps-orb-a{width:380px;height:380px;top:-100px;left:-100px;  background:rgba(201,169,110,.06);animation-delay:0s;}
+.ps-orb-b{width:280px;height:280px;bottom:-80px;right:-80px; background:rgba(212,114,106,.08);animation-delay:4s;}
+.ps-orb-c{width:200px;height:200px;top:40%;left:42%;         background:rgba(201,169,110,.04);animation-delay:7s;}
+@keyframes psOrbFloat{from{transform:translate(0,0) scale(1)}to{transform:translate(16px,18px) scale(1.07)}}
+
+/* ── Diagonal line ── */
+.ps-diag{
+  position:absolute;top:0;left:50%;width:1px;height:100%;z-index:0;pointer-events:none;
+  background:linear-gradient(180deg,transparent,rgba(201,169,110,.12) 30%,rgba(201,169,110,.12) 70%,transparent);
+  transform:skewX(-6deg);
+}
+
+/* ── Container ── */
+.ps-section > .ps-container{
+  position:relative;z-index:2;
+  max-width:1280px;margin:0 auto;padding:0 40px;
+}
+
+/* ══ HEADER ROW ══ */
+.ps-head-row{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:40px;
+  align-items:end;
+  margin-bottom:64px;
+}
+.ps-eyebrow{
+  display:inline-flex;align-items:center;gap:14px;
+  font-family:var(--ps-font-b);
+  font-size:10.5px;letter-spacing:4px;text-transform:uppercase;
+  color:var(--ps-gold);font-weight:700;margin-bottom:16px;
+}
+.ps-eyebrow::before,.ps-eyebrow::after{
+  content:'';display:block;width:38px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--ps-gold));
+}
+.ps-eyebrow::after{background:linear-gradient(90deg,var(--ps-gold),transparent);}
+
+.ps-section .ps-head h2{
+  font-family:var(--ps-font-d);
+  font-size:clamp(2.4rem,4.5vw,4.2rem);
+  font-weight:300;line-height:1.1;
+  color:var(--ps-cream);margin-bottom:18px;
+}
+.ps-section .ps-head h2 em{font-style:italic;color:var(--ps-gold);font-weight:400;}
+.ps-section .ps-head p{
+  font-family:var(--ps-font-b);
+  font-size:14.5px;line-height:1.82;
+  color:rgba(250,246,240,.5);max-width:500px;font-weight:300;
+}
+.ps-quote{
+  font-family:var(--ps-font-d);
+  font-size:clamp(2.5rem,4.5vw,5.5rem);
+  font-weight:300;font-style:italic;
+  color:rgba(201,169,110,.1);line-height:1.1;
+  text-align:right;white-space:nowrap;
+}
+
+/* ══ TABS ══ */
+.ps-tabs{
+  display:flex;flex-wrap:wrap;gap:10px;
+  margin-bottom:48px;list-style:none;padding:0;border:none;
+}
+.ps-tab-btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:12px 22px;
+  border:1.5px solid var(--ps-border);border-radius:50px;
+  background:rgba(255,255,255,.03);
+  color:rgba(250,246,240,.5);
+  font-family:var(--ps-font-b);font-size:11.5px;font-weight:600;
+  letter-spacing:1.5px;text-transform:uppercase;
+  cursor:pointer;text-decoration:none;
+  transition:all .35s ease;
+  position:relative;overflow:hidden;white-space:nowrap;
+}
+.ps-tab-btn::before{
+  content:'';position:absolute;inset:0;border-radius:inherit;
+  background:linear-gradient(135deg,var(--ps-gold),var(--ps-rose));
+  opacity:0;transition:opacity .35s;z-index:0;
+}
+.ps-tab-btn>*{position:relative;z-index:1;}
+.ps-tab-btn i{font-size:1.1rem;transition:transform .35s;}
+.ps-tab-btn:hover{border-color:var(--ps-gold);color:var(--ps-cream);transform:translateY(-2px);box-shadow:0 8px 28px rgba(201,169,110,.18);}
+.ps-tab-btn:hover i{transform:scale(1.2) rotate(-8deg);}
+.ps-tab-btn:hover::before{opacity:1;}
+.ps-tab-btn.ps-active{border-color:transparent;color:var(--ps-dark);background:linear-gradient(135deg,var(--ps-gold),var(--ps-rose));box-shadow:0 8px 28px rgba(201,169,110,.25);}
+.ps-tab-btn.ps-active::before{opacity:0;}
+
+/* ══ PANE ══ */
+.ps-tab-pane{display:none;}
+.ps-tab-pane.ps-show{display:block;animation:psFadeIn .5s ease both;}
+@keyframes psFadeIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+/* ══ SLIDER LAYOUT ══ */
+.ps-slider-wrap{
+  display:grid;
+  grid-template-columns:1fr 290px;
+  gap:24px;
+  align-items:start;
+}
+
+/* ── MAIN DISPLAY ── */
+.ps-main-slide{
+  border-radius:var(--ps-radius);overflow:hidden;
+  background:var(--ps-card-bg);
+  border:1.5px solid var(--ps-border);
+  min-height:500px;display:flex;flex-direction:column;
+  position:relative;
+}
+
+/* Shimmer sweep on hover */
+.ps-main-slide::before{
+  content:'';
+  position:absolute;top:0;left:-100%;width:55%;height:100%;
+  background:linear-gradient(105deg,transparent 40%,rgba(201,169,110,.07) 50%,transparent 60%);
+  transition:left .8s ease;z-index:3;pointer-events:none;
+}
+.ps-main-slide:hover::before{left:160%;}
+
+.ps-main-slide-inner{
+  display:none;flex-direction:column;height:100%;
+  animation:psFadeIn .4s ease both;
+}
+.ps-main-slide-inner.ps-active{display:flex;}
+
+.ps-main-img-wrap{
+  position:relative;overflow:hidden;
+  aspect-ratio:16/9;background:var(--ps-mid);flex-shrink:0;
+}
+.ps-main-img{
+  width:100%;height:100%;
+  object-fit:cover;display:block;
+  transition:transform .7s cubic-bezier(.25,.46,.45,.94);
+}
+.ps-main-slide:hover .ps-main-img{transform:scale(1.04);}
+
+/* Gold gradient over image bottom */
+.ps-main-img-wrap::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:40%;
+  background:linear-gradient(0deg,var(--ps-card-bg) 0%,transparent 100%);
+  pointer-events:none;z-index:1;
+}
+
+/* Category tag */
+.ps-slide-tag{
+  position:absolute;top:16px;left:16px;z-index:4;
+  background:linear-gradient(135deg,var(--ps-gold),var(--ps-rose));
+  color:var(--ps-dark);
+  font-family:var(--ps-font-b);font-size:9px;font-weight:700;
+  letter-spacing:2.5px;text-transform:uppercase;
+  padding:5px 14px;border-radius:50px;
+}
+
+.ps-slide-info{
+  padding:26px 28px 28px;flex:1;
+  display:flex;flex-direction:column;justify-content:space-between;
+  position:relative;
+}
+.ps-slide-info::before{
+  content:'';position:absolute;top:0;left:28px;right:28px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--ps-gold),transparent);
+}
+.ps-slide-info h4{
+  font-family:var(--ps-font-d);
+  font-size:1.75rem;font-weight:400;font-style:italic;
+  color:var(--ps-cream);margin-bottom:10px;line-height:1.2;
+}
+.ps-slide-info p{
+  font-family:var(--ps-font-b);
+  font-size:13px;line-height:1.8;
+  color:rgba(250,246,240,.48);font-weight:300;margin:0;
+}
+.ps-slide-footer{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-top:22px;
+}
+.ps-slide-counter{
+  font-family:var(--ps-font-d);
+  font-size:3rem;font-weight:300;font-style:italic;
+  color:rgba(201,169,110,.18);user-select:none;line-height:1;
+}
+
+/* Arrows */
+.ps-arrows{display:flex;gap:10px;}
+.ps-arrow{
+  width:44px;height:44px;border-radius:50%;
+  border:1.5px solid var(--ps-border);
+  background:rgba(255,255,255,.03);
+  color:var(--ps-gold);
+  display:flex;align-items:center;justify-content:center;
+  cursor:pointer;font-size:1rem;
+  transition:all .3s ease;user-select:none;
+  font-family:var(--ps-font-b);
+}
+.ps-arrow:hover{background:var(--ps-gold);border-color:var(--ps-gold);color:var(--ps-dark);transform:scale(1.1);}
+
+/* ── THUMBNAILS ── */
+.ps-thumbs{
+  display:flex;flex-direction:column;gap:8px;
+  max-height:580px;overflow-y:auto;
+  scrollbar-width:thin;scrollbar-color:rgba(201,169,110,.3) transparent;
+  padding-right:4px;
+}
+.ps-thumbs::-webkit-scrollbar{width:3px;}
+.ps-thumbs::-webkit-scrollbar-thumb{background:rgba(201,169,110,.3);border-radius:2px;}
+
+.ps-thumb{
+  display:flex;align-items:center;gap:12px;
+  padding:10px 14px;border-radius:12px;
+  border:1.5px solid var(--ps-border);
+  background:rgba(255,255,255,.02);
+  cursor:pointer;transition:all .3s ease;flex-shrink:0;
+  position:relative;overflow:hidden;
+}
+.ps-thumb::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(201,169,110,.06),transparent);
+  opacity:0;transition:opacity .3s;border-radius:inherit;
+}
+.ps-thumb:hover::before,.ps-thumb.ps-active::before{opacity:1;}
+.ps-thumb:hover{border-color:rgba(201,169,110,.4);}
+.ps-thumb.ps-active{border-color:var(--ps-gold);}
+
+/* Left gold bar */
+.ps-thumb.ps-active::after{
+  content:'';position:absolute;left:0;top:15%;bottom:15%;
+  width:3px;border-radius:0 2px 2px 0;background:var(--ps-gold);
+}
+
+.ps-thumb-img{
+  width:62px;height:48px;object-fit:cover;
+  border-radius:8px;flex-shrink:0;
+  background:var(--ps-mid);
+  transition:transform .3s;
+}
+.ps-thumb:hover .ps-thumb-img{transform:scale(1.05);}
+.ps-thumb-info{min-width:0;}
+.ps-thumb-title{
+  font-family:var(--ps-font-b);
+  font-size:11px;font-weight:600;
+  color:rgba(250,246,240,.6);
+  letter-spacing:.5px;text-transform:uppercase;
+  display:block;line-height:1.4;
+  transition:color .3s;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.ps-thumb.ps-active .ps-thumb-title,
+.ps-thumb:hover .ps-thumb-title{color:var(--ps-gold);}
+.ps-thumb-sub{
+  font-family:var(--ps-font-b);
+  font-size:10px;color:rgba(250,246,240,.3);
+  display:block;margin-top:2px;font-weight:300;
+}
+
+/* ══ RESPONSIVE ══ */
+@media(max-width:1100px){
+  .ps-slider-wrap{grid-template-columns:1fr 240px;}
+}
+@media(max-width:900px){
+  .ps-section>.ps-container{padding:0 24px;}
+  .ps-head-row{grid-template-columns:1fr;gap:0;}
+  .ps-quote{display:none;}
+}
+@media(max-width:768px){
+  .ps-section{padding:70px 0 80px;}
+  .ps-head-row{margin-bottom:46px;}
+  .ps-slider-wrap{grid-template-columns:1fr;}
+  .ps-main-slide{min-height:auto;}
+  .ps-thumbs{
+    flex-direction:row;flex-wrap:nowrap;
+    overflow-x:auto;overflow-y:visible;
+    max-height:none;padding-right:0;padding-bottom:8px;
+  }
+  .ps-thumb{min-width:120px;flex-direction:column;text-align:center;gap:6px;padding:10px;}
+  .ps-thumb-img{width:100%;height:64px;}
+  .ps-thumb.ps-active::after{display:none;}
+  .ps-thumb-sub{display:none;}
+  .ps-tabs{gap:8px;}
+  .ps-tab-btn{padding:10px 16px;font-size:10.5px;}
+}
+@media(max-width:520px){
+  .ps-section>.ps-container{padding:0 16px;}
+  .ps-section .ps-head h2{font-size:2rem;}
+  .ps-tab-btn span{display:none;}
+  .ps-tab-btn{padding:13px 15px;border-radius:50%;}
+  .ps-tab-btn i{font-size:1.25rem;}
+  .ps-slide-info{padding:20px;}
+  .ps-slide-info h4{font-size:1.4rem;}
+  .ps-slide-counter{font-size:2.2rem;}
+}
+
+
+
+
+/*===========================================================*/
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --gold:      #c9a96e;
+  --gold-lt:   #e8d5b0;
+  --gold-dk:   #a8834a;
+  --rose:      #c9706a;
+  --ink:       #1c0f13;
+  --ink-soft:  #4a2e35;
+  --mist:      #f7f2ed;
+  --white:     #ffffff;
+  --border:    rgba(201,169,110,0.18);
+  --border-md: rgba(201,169,110,0.35);
+  --shadow:    0 2px 40px rgba(28,15,19,0.07);
+  --shadow-lg: 0 16px 60px rgba(28,15,19,0.12);
+  --Fd: 'Playfair Display', Georgia, serif;
+  --Fb: 'DM Sans', sans-serif;
+}
+
+
+/* ════════════════════════════════════════════
+   SECTION SHELL
+════════════════════════════════════════════ */
+.appt-section {
+  position: relative;
+  padding: 110px 0 120px;
+  background: var(--white);
+  overflow: hidden;
+}
+
+/* Subtle warm mesh background */
+.appt-section::before {
+  content: '';
+  position: absolute; inset: 0; pointer-events: none;
+  background:
+    radial-gradient(ellipse 60% 50% at 0% 0%,   rgba(201,169,110,0.07) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 60% at 100% 100%, rgba(201,112,106,0.05) 0%, transparent 65%),
+    radial-gradient(ellipse 40% 40% at 50% 50%,  rgba(201,169,110,0.03) 0%, transparent 70%);
+}
+
+/* Gold diagonal accent stripe */
+.appt-section::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 420px; height: 420px;
+  background: linear-gradient(135deg, transparent 55%, rgba(201,169,110,0.06) 55%);
+  pointer-events: none;
+}
+
+/* Fine dot grid texture */
+.appt-dots {
+  position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  background-image: radial-gradient(circle, rgba(201,169,110,0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
+  opacity: 0.5;
+}
+
+.appt-container {
+  max-width: 1220px; margin: 0 auto; padding: 0 40px;
+  position: relative; z-index: 2;
+}
+
+/* ════════════════════════════════════════════
+   SECTION HEADER
+════════════════════════════════════════════ */
+.appt-header {
+  text-align: center; margin-bottom: 72px;
+  opacity: 0; transform: translateY(24px);
+  animation: fadeUp .7s .1s ease forwards;
+}
+
+.appt-eyebrow {
+  display: inline-flex; align-items: center; gap: 14px;
+  font-size: 10px; font-weight: 600; letter-spacing: 5px;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 18px;
+}
+.appt-eyebrow::before, .appt-eyebrow::after {
+  content: ''; display: block; width: 36px; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+.appt-eyebrow::after { background: linear-gradient(90deg, var(--gold), transparent); }
+
+.appt-header h2 {
+  font-family: var(--Fd);
+  font-size: clamp(2.4rem, 4.5vw, 4rem);
+  font-weight: 400; color: var(--ink); line-height: 1.1;
+}
+.appt-header h2 em {
+  font-style: italic; color: var(--gold);
+}
+.appt-header p {
+  font-size: 15px; line-height: 1.85;
+  color: var(--ink-soft); opacity: 0.7;
+  max-width: 520px; margin: 18px auto 0;
+  font-weight: 300;
+}
+
+/* ════════════════════════════════════════════
+   LAYOUT GRID
+════════════════════════════════════════════ */
+.appt-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 40px;
+  align-items: start;
+}
+
+/* ════════════════════════════════════════════
+   LEFT — FORM CARD
+════════════════════════════════════════════ */
+.appt-form-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 52px 52px 48px;
+  box-shadow: var(--shadow-lg);
+  position: relative; overflow: hidden;
+  opacity: 0; transform: translateY(32px);
+  animation: fadeUp .75s .3s ease forwards;
+}
+
+/* Shimmer top border */
+.appt-form-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), var(--rose), var(--gold), transparent);
+  background-size: 200% 100%;
+  animation: shimmerBorder 3.5s ease-in-out infinite;
+}
+@keyframes shimmerBorder {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Corner decoration */
+.appt-form-card::after {
+  content: '✦';
+  position: absolute; bottom: 28px; right: 36px;
+  font-size: 1.8rem; color: rgba(201,169,110,0.1);
+  font-family: var(--Fd);
+}
+
+.form-title {
+  font-family: var(--Fd);
+  font-size: 1.65rem; font-weight: 400; font-style: italic;
+  color: var(--ink); margin-bottom: 6px;
+}
+.form-subtitle {
+  font-size: 13.5px; color: var(--ink-soft); opacity: 0.6;
+  font-weight: 300; margin-bottom: 36px; line-height: 1.7;
+}
+
+/* ── Form rows ── */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.form-row.full { grid-template-columns: 1fr; }
+
+/* ── Input field ── */
+.field-wrap {
+  position: relative;
+}
+.field-wrap label {
+  display: block;
+  font-size: 10px; font-weight: 600; letter-spacing: 2.5px;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 8px;
+}
+.field-wrap input,
+.field-wrap select,
+.field-wrap textarea {
+  width: 100%;
+  padding: 14px 18px;
+  background: var(--mist);
+  border: 1.5px solid rgba(201,169,110,0.15);
+  border-radius: 12px;
+  font-family: var(--Fb); font-size: 14px;
+  color: var(--ink); font-weight: 400;
+  outline: none;
+  transition: border-color .25s, box-shadow .25s, background .25s;
+  appearance: none; -webkit-appearance: none;
+}
+.field-wrap input::placeholder,
+.field-wrap textarea::placeholder { color: rgba(28,15,19,0.32); }
+.field-wrap input:focus,
+.field-wrap select:focus,
+.field-wrap textarea:focus {
+  border-color: var(--gold);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(201,169,110,0.1);
+}
+.field-wrap textarea { resize: vertical; min-height: 110px; line-height: 1.6; }
+
+/* Select arrow */
+.select-wrap { position: relative; }
+.select-wrap::after {
+  content: '';
+  position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
+  width: 0; height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--gold);
+  pointer-events: none;
+}
+
+/* Date field icon */
+.date-wrap { position: relative; }
+.date-wrap input { padding-right: 48px; }
+.date-wrap .cal-icon {
+  position: absolute; right: 16px; top: 50%; transform: translateY(-50%);
+  color: var(--gold); font-size: 1rem; pointer-events: none;
+}
+
+/* ── Submit button ── */
+.btn-submit {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  width: 100%; padding: 17px 36px;
+  background: linear-gradient(125deg, var(--gold) 0%, var(--rose) 100%);
+  color: #fff;
+  font-family: var(--Fb); font-size: 11px; font-weight: 700;
+  letter-spacing: 3px; text-transform: uppercase;
+  border: none; border-radius: 50px; cursor: pointer;
+  position: relative; overflow: hidden;
+  box-shadow: 0 10px 36px rgba(201,169,110,0.35);
+  transition: transform .3s, box-shadow .3s;
+  margin-top: 8px;
+}
+.btn-submit::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit;
+  background: rgba(255,255,255,0);
+  transition: background .3s;
+}
+.btn-submit:hover { transform: translateY(-3px); box-shadow: 0 18px 50px rgba(201,169,110,0.45); }
+.btn-submit:hover::before { background: rgba(255,255,255,0.1); }
+.btn-submit svg { width: 16px; height: 16px; fill: #fff; flex-shrink: 0; }
+
+/* ════════════════════════════════════════════
+   RIGHT — INFO SIDEBAR
+════════════════════════════════════════════ */
+.appt-sidebar {
+  display: flex; flex-direction: column; gap: 24px;
+  opacity: 0; transform: translateX(28px);
+  animation: slideLeft .8s .5s ease forwards;
+}
+@keyframes slideLeft { to { opacity: 1; transform: translateX(0); } }
+
+/* Info card base */
+.info-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 32px 30px;
+  box-shadow: var(--shadow);
+  position: relative; overflow: hidden;
+  transition: transform .35s, box-shadow .35s;
+}
+.info-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+
+/* Accent left bar */
+.info-card::before {
+  content: '';
+  position: absolute; top: 20%; left: 0; bottom: 20%;
+  width: 3px; border-radius: 0 2px 2px 0;
+  background: linear-gradient(180deg, var(--gold), var(--rose));
+}
+
+/* Icon circle */
+.info-icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  background: linear-gradient(135deg, rgba(201,169,110,0.12), rgba(201,112,106,0.08));
+  border: 1px solid var(--border-md);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+}
+.info-icon svg { width: 24px; height: 24px; }
+
+.info-card h4 {
+  font-family: var(--Fd);
+  font-size: 1.15rem; font-weight: 600; font-style: italic;
+  color: var(--ink); margin-bottom: 14px;
+}
+
+.info-card p {
+  font-size: 13.5px; line-height: 1.95;
+  color: var(--ink-soft); font-weight: 300;
+}
+
+/* Hours specific: day labels */
+.hours-list { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+.hours-list li {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 13px;
+}
+.hours-list li .day {
+  font-size: 10px; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--gold);
+}
+.hours-list li .time {
+  font-size: 13px; font-weight: 400; color: var(--ink-soft);
+}
+.hours-divider {
+  height: 1px; background: var(--border); margin: 4px 0;
+}
+
+/* Map embed placeholder card */
+.map-card {
+  border-radius: 22px; overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  height: 180px; position: relative;
+  transition: transform .35s, box-shadow .35s;
+}
+.map-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.map-card iframe {
+  width: 100%; height: 100%; border: none; display: block;
+  filter: saturate(0.5) contrast(1.05);
+  transition: filter .4s;
+}
+.map-card:hover iframe { filter: saturate(1) contrast(1); }
+.map-label {
+  position: absolute; bottom: 14px; left: 14px;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 14px;
+  font-family: var(--Fb); font-size: 10px;
+  font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--gold);
+  display: flex; align-items: center; gap: 7px;
+}
+.map-label::before { content: '📍'; font-size: .85rem; }
+
+/* ════════════════════════════════════════════
+   KEYFRAMES
+════════════════════════════════════════════ */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE — TABLET
+════════════════════════════════════════════ */
+@media (max-width: 1060px) {
+  .appt-grid { grid-template-columns: 1fr; gap: 32px; }
+  .appt-sidebar {
+    display: grid; grid-template-columns: 1fr 1fr;
+    animation: fadeUp .75s .5s ease forwards;
+    transform: translateY(28px);
+  }
+  .map-card { grid-column: 1 / -1; height: 220px; }
+}
+
+@media (max-width: 720px) {
+  .appt-section { padding: 80px 0 90px; }
+  .appt-container { padding: 0 22px; }
+  .appt-form-card { padding: 36px 26px 32px; border-radius: 20px; }
+  .form-row { grid-template-columns: 1fr; gap: 14px; }
+  .appt-header { margin-bottom: 52px; }
+  .appt-sidebar { grid-template-columns: 1fr; }
+  .map-card { grid-column: auto; height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .appt-section { padding: 64px 0 72px; }
+  .appt-container { padding: 0 16px; }
+  .appt-form-card { padding: 28px 18px 26px; }
+  .appt-header h2 { font-size: 2rem; }
+  .form-title { font-size: 1.35rem; }
+  .info-card { padding: 24px 20px; }
+}
+
+
+/* ═══════════════════════════════════════
+   HERO SECTION — 100% scoped to .hw-hero
+   Dark luxury gold — same palette as site
+═══════════════════════════════════════ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+
+.hw-hero{
+  --gold:    #c9a96e;
+  --gold-lt: #e8d5b0;
+  --rose:    #d4726a;
+  --dark:    #1a1014;
+  --mid:     #2e1e24;
+  --cream:   #faf6f0;
+  --muted:   rgba(250,246,240,0.5);
+  --Fd:      'Cormorant Garamond',Georgia,serif;
+  --Fb:      'Josefin Sans',sans-serif;
+
+  position:relative;
+  width:100%;
+  min-height:100vh;
+  overflow:hidden;
+  display:flex;align-items:center;
+  background:#0e080c;
+  font-family:var(--Fb);
+}
+
+/* ═══ FULL-BLEED SLIDE BG IMAGES ═══ */
+.hw-slides{
+  position:absolute;inset:0;z-index:0;
+}
+.hw-slide-bg{
+  position:absolute;inset:0;
+  background-size:cover;background-position:center top;
+  opacity:0;
+  transition:opacity 1.4s cubic-bezier(.4,0,.2,1);
+}
+.hw-slide-bg.hw-active{opacity:1;}
+
+/* Dark cinematic overlay */
+.hw-overlay{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(105deg, rgba(10,4,8,.92) 0%, rgba(10,4,8,.72) 45%, rgba(10,4,8,.55) 100%),
+    linear-gradient(0deg, rgba(10,4,8,.8) 0%, transparent 40%);
+}
+
+/* ═══ GOLDEN GRAIN TEXTURE ═══ */
+.hw-grain{
+  position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.028;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:200px;
+}
+
+/* ═══ FLOATING PARTICLES CANVAS ═══ */
+#hw-particles{
+  position:absolute;inset:0;z-index:3;pointer-events:none;
+}
+
+/* ═══ DECORATIVE LINES ═══ */
+.hw-line-v{
+  position:absolute;top:0;width:1px;height:100%;z-index:4;pointer-events:none;
+  background:linear-gradient(180deg,transparent,rgba(201,169,110,.12) 25%,rgba(201,169,110,.12) 75%,transparent);
+}
+.hw-line-v:nth-child(1){left:calc(50% - 340px);}
+.hw-line-v:nth-child(2){left:calc(50% + 340px);display:none;}
+
+/* ═══ DIAGONAL GOLD SLASH ═══ */
+.hw-slash{
+  position:absolute;bottom:0;left:0;right:0;height:120px;z-index:4;pointer-events:none;
+  background:linear-gradient(170deg,transparent 49.5%,rgba(201,169,110,.08) 49.5%,rgba(201,169,110,.08) 50.5%,transparent 50.5%);
+}
+
+/* ═══ CONTENT LAYER ═══ */
+.hw-content{
+  position:relative;z-index:10;
+  width:100%;max-width:1300px;
+  margin:0 auto;
+  padding:0 60px;
+  padding-top:120px;
+  padding-bottom:100px;
+  display:grid;
+  grid-template-columns:1fr 420px;
+  gap:60px;
+  align-items:center;
+}
+
+/* ═══ LEFT: TEXT BLOCK ═══ */
+.hw-text{}
+
+/* Eyebrow */
+.hw-eyebrow{
+  display:inline-flex;align-items:center;gap:14px;
+  margin-bottom:28px;
+  opacity:0;transform:translateY(20px);
+  animation:hwSlideUp .7s .4s ease forwards;
+}
+.hw-eyebrow-line{
+  width:44px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold));
+}
+.hw-eyebrow-line.right{background:linear-gradient(90deg,var(--gold),transparent);}
+.hw-eyebrow span{
+  font-family:var(--Fb);font-size:10px;font-weight:700;
+  letter-spacing:5px;text-transform:uppercase;color:var(--gold);
+}
+
+/* Main heading */
+.hw-heading{
+  font-family:var(--Fd);
+  font-size:clamp(2.8rem,5.5vw,5.2rem);
+  font-weight:300;line-height:1.08;
+  color:var(--cream);
+  margin-bottom:10px;
+  opacity:0;transform:translateY(30px);
+  animation:hwSlideUp .8s .6s ease forwards;
+}
+.hw-heading em{
+  font-style:italic;color:var(--gold);font-weight:400;
+  display:block;
+}
+
+/* Typing line */
+.hw-typing-wrap{
+  display:flex;align-items:center;gap:0;
+  margin-bottom:32px;
+  font-family:var(--Fd);
+  font-size:clamp(1.5rem,2.8vw,2.4rem);
+  font-weight:300;color:rgba(250,246,240,.65);font-style:italic;
+  opacity:0;transform:translateY(20px);
+  animation:hwSlideUp .7s .9s ease forwards;
+  min-height:3.2rem;
+}
+.hw-typing-static{color:rgba(250,246,240,.4);margin-right:10px;white-space:nowrap;}
+#hw-typed{color:var(--gold-lt);position:relative;}
+.hw-cursor{
+  display:inline-block;width:2px;height:1em;
+  background:var(--gold);vertical-align:middle;
+  margin-left:3px;
+  animation:hwBlink .85s step-end infinite;
+}
+@keyframes hwBlink{0%,100%{opacity:1}50%{opacity:0}}
+
+/* Subtitle */
+.hw-sub{
+  font-family:var(--Fb);font-size:14.5px;line-height:1.88;
+  color:rgba(250,246,240,.44);font-weight:300;
+  max-width:500px;margin-bottom:44px;
+  opacity:0;transform:translateY(20px);
+  animation:hwSlideUp .7s 1.1s ease forwards;
+}
+
+/* CTA area */
+.hw-cta{
+  display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+  opacity:0;transform:translateY(20px);
+  animation:hwSlideUp .7s 1.3s ease forwards;
+}
+
+.hw-btn-primary{
+  display:inline-flex;align-items:center;gap:12px;
+  padding:16px 36px;
+  background:linear-gradient(130deg,var(--gold),var(--rose));
+  color:var(--dark);
+  font-family:var(--Fb);font-size:11px;font-weight:700;
+  letter-spacing:2.5px;text-transform:uppercase;
+  text-decoration:none;border-radius:50px;
+  position:relative;overflow:hidden;
+  box-shadow:0 12px 40px rgba(201,169,110,.3);
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+.hw-btn-primary::before{
+  content:'';position:absolute;inset:0;border-radius:inherit;
+  background:linear-gradient(130deg,rgba(255,255,255,.15),transparent);
+  opacity:0;transition:opacity .3s;
+}
+.hw-btn-primary:hover{transform:translateY(-3px);box-shadow:0 20px 50px rgba(201,169,110,.4);}
+.hw-btn-primary:hover::before{opacity:1;}
+.hw-btn-primary i{font-size:1.1rem;}
+
+.hw-btn-ghost{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:15px 32px;
+  border:1.5px solid rgba(201,169,110,.35);
+  color:rgba(250,246,240,.7);
+  background:rgba(255,255,255,.04);
+  backdrop-filter:blur(6px);
+  font-family:var(--Fb);font-size:11px;font-weight:600;
+  letter-spacing:2px;text-transform:uppercase;
+  text-decoration:none;border-radius:50px;
+  transition:all .3s ease;
+}
+.hw-btn-ghost:hover{border-color:var(--gold);color:var(--cream);background:rgba(201,169,110,.08);transform:translateY(-3px);}
+.hw-btn-ghost i{font-size:.9rem;transition:transform .3s;}
+.hw-btn-ghost:hover i{transform:translateX(4px);}
+
+/* Stats row */
+.hw-stats{
+  display:flex;gap:36px;margin-top:52px;
+  opacity:0;transform:translateY(20px);
+  animation:hwSlideUp .7s 1.55s ease forwards;
+}
+.hw-stat{}
+.hw-stat-num{
+  font-family:var(--Fd);font-size:2.4rem;font-weight:400;font-style:italic;
+  color:var(--gold);display:block;line-height:1;
+}
+.hw-stat-label{
+  font-family:var(--Fb);font-size:9.5px;font-weight:700;
+  letter-spacing:3px;text-transform:uppercase;
+  color:rgba(250,246,240,.35);display:block;margin-top:4px;
+}
+.hw-stat-div{
+  width:1px;background:rgba(201,169,110,.2);align-self:stretch;
+}
+
+/* ═══ RIGHT: FLOATING CARD ═══ */
+.hw-card-wrap{
+  position:relative;
+  opacity:0;transform:translateX(40px) scale(.97);
+  animation:hwSlideLeft .9s 1s ease forwards;
+}
+
+.hw-card{
+  background:rgba(26,16,20,.7);
+  backdrop-filter:blur(20px);
+  border:1.5px solid rgba(201,169,110,.18);
+  border-radius:24px;
+  overflow:hidden;
+  position:relative;
+}
+/* shimmer top border */
+.hw-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),var(--rose),transparent);
+  background-size:200% 100%;
+  animation:hwShimmerBorder 3s ease-in-out infinite;
+}
+@keyframes hwShimmerBorder{0%{background-position:200% 0}100%{background-position:-200% 0}}
+
+.hw-card-img{
+  width:100%;height:280px;
+  object-fit:cover;display:block;
+  transition:transform .8s ease;
+}
+.hw-card:hover .hw-card-img{transform:scale(1.04);}
+
+/* img fade bottom */
+.hw-card-img-fade{
+  position:absolute;top:0;left:0;right:0;height:280px;
+  background:linear-gradient(0deg,rgba(26,16,20,.9) 0%,transparent 60%);
+  pointer-events:none;z-index:1;
+}
+
+.hw-card-body{padding:24px 26px 26px;position:relative;z-index:2;}
+
+/* Badge */
+.hw-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 14px;border-radius:50px;
+  background:linear-gradient(130deg,rgba(201,169,110,.15),rgba(212,114,106,.1));
+  border:1px solid rgba(201,169,110,.25);
+  font-family:var(--Fb);font-size:9px;font-weight:700;
+  letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);
+  margin-bottom:14px;
+}
+.hw-badge::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--gold);animation:hwPulse 2s ease-in-out infinite;}
+@keyframes hwPulse{0%,100%{box-shadow:0 0 0 0 rgba(201,169,110,.4)}50%{box-shadow:0 0 0 6px rgba(201,169,110,0)}}
+
+.hw-card-title{
+  font-family:var(--Fd);font-size:1.4rem;font-weight:400;font-style:italic;
+  color:var(--cream);margin-bottom:8px;line-height:1.3;
+}
+.hw-card-desc{
+  font-family:var(--Fb);font-size:12.5px;line-height:1.75;
+  color:rgba(250,246,240,.45);font-weight:300;margin-bottom:20px;
+}
+
+/* Progress bars */
+.hw-skills{display:flex;flex-direction:column;gap:12px;}
+.hw-skill-row{display:flex;align-items:center;justify-content:space-between;gap:14px;}
+.hw-skill-name{
+  font-family:var(--Fb);font-size:10px;font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;color:rgba(250,246,240,.5);
+  min-width:100px;
+}
+.hw-skill-bar{flex:1;height:3px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden;}
+.hw-skill-fill{
+  height:100%;border-radius:2px;
+  background:linear-gradient(90deg,var(--gold),var(--rose));
+  width:0%;transition:width 1.5s ease;
+}
+.hw-skill-pct{font-family:var(--Fd);font-size:.9rem;color:var(--gold);font-style:italic;min-width:32px;text-align:right;}
+
+/* Floating badge — top right of card wrap */
+.hw-float-badge{
+  position:absolute;top:-20px;right:-20px;
+  width:88px;height:88px;
+  border-radius:50%;
+  background:linear-gradient(135deg,var(--gold),var(--rose));
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  box-shadow:0 12px 36px rgba(201,169,110,.35);
+  animation:hwRotateBadge 12s linear infinite;
+}
+.hw-float-badge-num{
+  font-family:var(--Fd);font-size:1.8rem;font-weight:400;font-style:italic;
+  color:var(--dark);line-height:1;
+}
+.hw-float-badge-txt{
+  font-family:var(--Fb);font-size:8px;font-weight:700;
+  letter-spacing:1.5px;text-transform:uppercase;color:rgba(20,10,15,.7);
+}
+@keyframes hwRotateBadge{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.hw-float-badge>*{animation:hwRotateBadgeInner 12s linear infinite;}
+@keyframes hwRotateBadgeInner{from{transform:rotate(0deg)}to{transform:rotate(-360deg)}}
+
+/* ═══ SLIDE INDICATORS ═══ */
+.hw-indicators{
+  position:absolute;bottom:44px;left:60px;z-index:20;
+  display:flex;gap:10px;align-items:center;
+}
+.hw-dot{
+  width:28px;height:2px;border-radius:2px;
+  background:rgba(201,169,110,.25);cursor:pointer;
+  transition:all .4s ease;
+}
+.hw-dot.hw-active{width:44px;background:var(--gold);}
+.hw-dot:hover{background:rgba(201,169,110,.5);}
+
+/* ═══ SCROLL HINT ═══ */
+.hw-scroll-hint{
+  position:absolute;bottom:44px;right:60px;z-index:20;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  opacity:0;animation:hwSlideUp .7s 2s ease forwards;
+}
+.hw-scroll-hint span{
+  font-family:var(--Fb);font-size:9px;font-weight:700;
+  letter-spacing:3px;text-transform:uppercase;color:rgba(201,169,110,.4);
+  writing-mode:vertical-rl;text-orientation:mixed;
+}
+.hw-scroll-mouse{
+  width:22px;height:34px;border-radius:12px;
+  border:1.5px solid rgba(201,169,110,.3);
+  display:flex;align-items:flex-start;justify-content:center;
+  padding-top:6px;
+}
+.hw-scroll-wheel{
+  width:2px;height:7px;border-radius:2px;background:var(--gold);
+  animation:hwScrollWheel 2s ease-in-out infinite;
+}
+@keyframes hwScrollWheel{0%{transform:translateY(0);opacity:1}100%{transform:translateY(12px);opacity:0}}
+
+/* ═══ ANIMATIONS ═══ */
+@keyframes hwSlideUp{
+  from{opacity:0;transform:translateY(30px)}
+  to  {opacity:1;transform:translateY(0)}
+}
+@keyframes hwSlideLeft{
+  from{opacity:0;transform:translateX(40px) scale(.97)}
+  to  {opacity:1;transform:translateX(0) scale(1)}
+}
+
+/* ═══ SLIDE TRANSITION STATES ═══ */
+.hw-text-inner{transition:opacity .5s ease,transform .5s ease;}
+.hw-text-inner.hw-exit{opacity:0;transform:translateY(-16px);}
+.hw-text-inner.hw-enter{opacity:0;transform:translateY(16px);}
+
+/* ═══ RESPONSIVE ═══ */
+@media(max-width:1100px){
+  .hw-content{grid-template-columns:1fr 360px;gap:40px;padding:0 40px;padding-top:110px;padding-bottom:90px;}
+}
+@media(max-width:900px){
+  .hw-content{grid-template-columns:1fr;padding:0 32px;padding-top:100px;padding-bottom:80px;gap:0;}
+  .hw-card-wrap{display:none;}
+  .hw-heading{font-size:clamp(2.4rem,7vw,3.8rem);}
+  .hw-indicators{left:32px;bottom:36px;}
+  .hw-scroll-hint{right:32px;bottom:36px;}
+}
+@media(max-width:640px){
+  .hw-content{padding:0 22px;padding-top:90px;padding-bottom:70px;}
+  .hw-stats{gap:20px;}
+  .hw-stat-num{font-size:1.9rem;}
+  .hw-cta{flex-direction:column;align-items:flex-start;gap:14px;}
+  .hw-btn-primary,.hw-btn-ghost{width:100%;justify-content:center;}
+  .hw-indicators{left:22px;}
+  .hw-scroll-hint{display:none;}
+  .hw-heading{font-size:2.2rem;}
+  .hw-typing-wrap{font-size:1.35rem;}
+}
+@media(max-width:400px){
+  .hw-eyebrow span{letter-spacing:3px;font-size:9px;}
+  .hw-stats{gap:14px;}
+}
+
+
+
+
+/* ═══════════════════════════════════════════
+   HEADER BASE
+═══════════════════════════════════════════ */
+.pw-header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  transition: background .4s ease, box-shadow .4s ease, padding .35s ease;
+}
+
+/* Transparent on top */
+.pw-header .pw-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: 1340px; margin: 0 auto;
+  padding: 28px 48px;
+  transition: padding .35s ease;
+}
+
+/* Scrolled state */
+.pw-header.scrolled {
+  background: rgba(13,6,8,0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 1px 0 rgba(201,169,110,0.12), 0 8px 40px rgba(0,0,0,0.5);
+}
+.pw-header.scrolled .pw-inner {
+  padding: 16px 48px;
+}
+
+/* Gold shimmer top line — only when scrolled */
+.pw-header::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--g), var(--r), var(--g), transparent);
+  background-size: 200% 100%;
+  opacity: 0; transition: opacity .4s;
+  animation: shimLine 4s ease-in-out infinite;
+}
+.pw-header.scrolled::before { opacity: 1; }
+@keyframes shimLine {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ═══════════════════════════════════════════
+   LOGO
+═══════════════════════════════════════════ */
+.pw-logo {
+  display: flex; align-items: center; gap: 12px;
+  text-decoration: none; flex-shrink: 0;
+  z-index: 10;
+}
+.pw-logo-mark {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--g), var(--r));
+  display: flex; align-items: center; justify-content: center;
+  position: relative; flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(201,169,110,0.3);
+  transition: transform .35s, box-shadow .35s;
+}
+.pw-logo-mark::before {
+  content: '✦';
+  font-size: 1.1rem; color: var(--ink);
+  font-family: var(--Fd);
+}
+.pw-logo-mark::after {
+  content: '';
+  position: absolute; inset: -5px; border-radius: 50%;
+  border: 1px dashed rgba(201,169,110,0.3);
+  animation: spinDot 14s linear infinite;
+}
+@keyframes spinDot { to { transform: rotate(360deg); } }
+.pw-logo:hover .pw-logo-mark {
+  transform: rotate(15deg) scale(1.05);
+  box-shadow: 0 6px 28px rgba(201,169,110,0.45);
+}
+.pw-logo-text { line-height: 1.15; }
+.pw-logo-name {
+  display: block;
+  font-family: var(--Fd); font-size: 1.1rem; font-style: italic; font-weight: 600;
+  color: #ffffff; letter-spacing: .3px;
+  transition: color .3s;
+}
+.pw-logo:hover .pw-logo-name { color: var(--g2); }
+.pw-logo-tagline {
+  display: block;
+  font-family: var(--Fb); font-size: 8px; font-weight: 700;
+  letter-spacing: 3.5px; text-transform: uppercase;
+  color: rgba(201,169,110,0.55);
+  margin-top: 1px;
+}
+
+/* ═══════════════════════════════════════════
+   DESKTOP NAV
+═══════════════════════════════════════════ */
+.pw-nav {
+  display: flex; align-items: center;
+}
+.pw-nav ul {
+  list-style: none; display: flex; align-items: center; gap: 4px;
+}
+.pw-nav > ul > li {
+  position: relative;
+}
+
+/* Top-level link */
+.pw-nav > ul > li > a {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 9px 16px;
+  font-family: var(--Fb); font-size: 12px; font-weight: 600;
+  letter-spacing: 1.8px; text-transform: uppercase;
+  color: whitesmoke; text-decoration: none;
+  border-radius: 6px;
+  position: relative; overflow: hidden;
+  transition: color .25s, background .25s;
+}
+.pw-nav > ul > li > a::after {
+  content: '';
+  position: absolute; bottom: 6px; left: 16px; right: 16px; height: 1px;
+  background: var(--g);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .3s ease;
+}
+.pw-nav > ul > li > a:hover,
+.pw-nav > ul > li.active > a {
+  color: var(--cr);
+  background: rgba(201,169,110,0.07);
+}
+.pw-nav > ul > li > a:hover::after,
+.pw-nav > ul > li.active > a::after { transform: scaleX(1); }
+
+/* Dropdown chevron */
+.pw-nav .has-drop > a .chev {
+  display: inline-block; width: 0; height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4.5px solid rgba(201,169,110,0.5);
+  margin-left: 2px; margin-top: 1px;
+  transition: transform .3s, border-top-color .25s;
+}
+.pw-nav .has-drop:hover > a .chev {
+  transform: rotate(180deg);
+  border-top-color: var(--g);
+}
+
+/* ── Dropdown panel ── */
+.pw-drop {
+  position: absolute; top: calc(100% + 14px); left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 220px;
+  background: rgba(18,8,12,0.96);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(201,169,110,0.15);
+  border-radius: 16px; overflow: hidden;
+  padding: 10px 0;
+  list-style: none;
+  opacity: 0; pointer-events: none;
+  transition: opacity .28s ease, transform .28s ease;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.6);
+}
+/* shimmer top */
+.pw-drop::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--g), transparent);
+}
+.pw-nav .has-drop:hover > .pw-drop {
+  opacity: 1; pointer-events: all;
+  transform: translateX(-50%) translateY(0);
+}
+
+.pw-drop li { position: relative; }
+.pw-drop li a {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 22px;
+  font-family: var(--Fb); font-size: 12px; font-weight: 500;
+  letter-spacing: 1px; text-transform: uppercase;
+  color: rgba(254,249,242,0.55); text-decoration: none;
+  transition: color .2s, background .2s, padding-left .2s;
+}
+.pw-drop li a:hover {
+  color: var(--g2); background: rgba(201,169,110,0.07);
+  padding-left: 28px;
+}
+.pw-drop li a .sub-arrow {
+  font-size: .75rem; opacity: 0.5;
+  transition: transform .25s;
+}
+.pw-drop li:hover > a .sub-arrow { transform: translateX(3px); opacity: 1; }
+
+/* ── Nested sub-dropdown ── */
+.pw-sub {
+  position: absolute; top: -10px; left: 100%;
+  min-width: 200px;
+  background: rgba(18,8,12,0.97);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(201,169,110,0.12);
+  border-radius: 14px; overflow: hidden;
+  padding: 10px 0; list-style: none;
+  opacity: 0; pointer-events: none;
+  transform: translateX(8px);
+  transition: opacity .25s, transform .25s;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.6);
+}
+.pw-drop li:hover > .pw-sub {
+  opacity: 1; pointer-events: all;
+  transform: translateX(0);
+}
+.pw-sub li a {
+  font-size: 11.5px; padding: 10px 20px;
+}
+
+/* ═══════════════════════════════════════════
+   RIGHT: CTA BUTTON
+═══════════════════════════════════════════ */
+.pw-actions {
+  display: flex; align-items: center; gap: 18px; flex-shrink: 0;
+}
+.pw-cta {
+  display: inline-flex; align-items: center; gap: 9px;
+  padding: 12px 26px;
+  background: linear-gradient(125deg, var(--g), var(--r));
+  color: var(--ink); text-decoration: none;
+  font-family: var(--Fb); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  border-radius: 50px; position: relative; overflow: hidden;
+  box-shadow: 0 8px 28px rgba(241, 241, 241, 0.774);
+  transition: transform .3s, box-shadow .3s;
+  white-space: nowrap;
+}
+.pw-cta::before {
+  content: ''; position: absolute; inset: 0; border-radius: inherit;
+  background: rgba(255,255,255,0); transition: background .3s;
+}
+.pw-cta:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(201,169,110,0.4); }
+.pw-cta:hover::before { background: rgba(255,255,255,0.1); }
+.pw-cta-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: rgba(13,6,8,0.5);
+  animation: ctaPulse 2s ease-in-out infinite;
+}
+@keyframes ctaPulse {
+  0%,100%{transform:scale(1)} 50%{transform:scale(1.4)}
+}
+
+/* ═══════════════════════════════════════════
+   HAMBURGER (mobile)
+═══════════════════════════════════════════ */
+.pw-burger {
+  display: none; flex-direction: column; justify-content: center;
+  gap: 5px; cursor: pointer; padding: 8px; z-index: 100;
+  background: none; border: none;
+}
+.pw-burger span {
+  display: block; width: 26px; height: 1.8px; border-radius: 2px;
+  background: whitesmoke;
+  transition: transform .35s ease, opacity .3s ease, width .35s ease;
+  transform-origin: center;
+}
+.pw-burger.open span:nth-child(1) { transform: translateY(6.8px) rotate(45deg); }
+.pw-burger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.pw-burger.open span:nth-child(3) { transform: translateY(-6.8px) rotate(-45deg); }
+
+/* ═══════════════════════════════════════════
+   MOBILE DRAWER
+═══════════════════════════════════════════ */
+.pw-drawer {
+  position: fixed; top: 0; right: 0; bottom: 0;
+  width: min(360px, 90vw);
+  background: rgba(13,6,8,0.98);
+  backdrop-filter: blur(32px);
+  border-left: 1px solid rgba(201,169,110,0.12);
+  z-index: 999;
+  display: flex; flex-direction: column;
+  padding: 100px 0 40px;
+  transform: translateX(100%);
+  transition: transform .45s cubic-bezier(.4,0,.2,1);
+  overflow-y: auto;
+}
+.pw-drawer.open { transform: translateX(0); }
+
+/* Drawer shimmer top */
+.pw-drawer::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, transparent, var(--g), var(--r), transparent);
+}
+
+/* Overlay */
+.pw-overlay {
+  position: fixed; inset: 0; z-index: 998;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(4px);
+  opacity: 0; pointer-events: none;
+  transition: opacity .4s;
+}
+.pw-overlay.open { opacity: 1; pointer-events: all; }
+
+/* Mobile nav list */
+.pw-mobile-nav {
+  list-style: none; padding: 0 32px; flex: 1;
+}
+.pw-mobile-nav > li {
+  border-bottom: 1px solid rgba(201,169,110,0.08);
+}
+.pw-mobile-nav > li > a,
+.pw-mobile-nav > li > .mobile-toggle {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 17px 4px;
+  font-family: var(--Fb); font-size: 12px; font-weight: 600;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--muted); text-decoration: none;
+  background: none; border: none; cursor: pointer; width: 100%;
+  transition: color .25s;
+}
+.pw-mobile-nav > li > a:hover,
+.pw-mobile-nav > li > .mobile-toggle:hover { color: var(--g2); }
+.pw-mobile-nav > li.active > a { color: var(--g); }
+.mob-chev {
+  font-size: .7rem; color: rgba(201,169,110,0.4);
+  transition: transform .3s;
+}
+.pw-mobile-nav > li.drop-open .mob-chev { transform: rotate(90deg); color: var(--g); }
+
+/* Sub items */
+.pw-mob-sub {
+  list-style: none; max-height: 0; overflow: hidden;
+  transition: max-height .4s ease;
+  padding: 0 8px;
+}
+.pw-mobile-nav > li.drop-open .pw-mob-sub {
+  max-height: 600px;
+}
+.pw-mob-sub li a {
+  display: block; padding: 10px 8px;
+  font-family: var(--Fb); font-size: 11px; font-weight: 500;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: rgba(254,249,242,0.38); text-decoration: none;
+  border-left: 1px solid rgba(201,169,110,0.15);
+  padding-left: 18px; margin-left: 4px;
+  transition: color .2s, border-color .2s, padding-left .2s;
+}
+.pw-mob-sub li a:hover {
+  color: var(--g2); border-left-color: var(--g);
+  padding-left: 24px;
+}
+
+/* Drawer footer */
+.pw-drawer-footer {
+  padding: 24px 32px 0;
+  border-top: 1px solid rgba(201,169,110,0.1);
+  margin: 24px 32px 0;
+}
+.pw-drawer-cta {
+  display: flex; align-items: center; justify-content: center; gap: 9px;
+  padding: 15px 28px; width: 100%;
+  background: linear-gradient(125deg, var(--g), var(--r));
+  color: #fff; text-decoration: none;
+  font-family: var(--Fb); font-size: 10.5px; font-weight: 700;
+  letter-spacing: 2.5px; text-transform: uppercase;
+  border-radius: 50px;
+  box-shadow: 0 8px 28px rgba(201,169,110,0.25);
+  transition: box-shadow .3s, transform .3s;
+}
+.pw-drawer-cta:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(201,169,110,0.4); }
+.pw-drawer-info {
+  margin-top: 18px;
+  font-family: var(--Fb); font-size: 11px; font-weight: 400;
+  letter-spacing: 1.5px; color: rgba(201,169,110,0.4);
+  text-align: center;
+}
+
+/* ═══════════════════════════════════════════
+   DEMO HERO BACKDROP (remove in production)
+═══════════════════════════════════════════ */
+.demo-bg {
+  height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(13,6,8,0) 0%, rgba(13,6,8,0.98) 100%),
+    url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1600&h=900&fit=crop&q=90') center/cover no-repeat;
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 60px;
+}
+.demo-label {
+  font-family: var(--Fd); font-style: italic;
+  font-size: 1rem; color: rgba(201,169,110,0.4);
+  letter-spacing: 2px;
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════ */
+@media (max-width: 1100px) {
+  .pw-nav > ul > li > a { padding: 9px 11px; font-size: 11px; letter-spacing: 1.4px; }
+  .pw-inner { padding: 24px 32px; }
+  .pw-header.scrolled .pw-inner { padding: 14px 32px; }
+}
+
+@media (max-width: 900px) {
+  .pw-nav, .pw-cta { display: none; }
+  .pw-burger { display: flex; }
+  .pw-inner { padding: 20px 28px; }
+  .pw-header.scrolled .pw-inner { padding: 14px 28px; }
+}
+
+@media (max-width: 480px) {
+  .pw-inner { padding: 18px 18px; }
+  .pw-header.scrolled .pw-inner { padding: 12px 18px; }
+  .pw-logo-name { font-size: .95rem; }
+  .pw-logo-tagline { font-size: 7px; letter-spacing: 2.5px; }
+}
+.welcomeSection,
+.aboutSection{
+background:#ffffff !important;
+}
+.ft{background:var(--ink);padding:80px 0 0;position:relative;overflow:hidden;border-top:1px solid rgba(201,169,110,0.07);}
+.ft::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,169,110,0.22),transparent);}
+.ft-in{max-width:1320px;margin:0 auto;padding:0 52px;}
+.ft-nl{text-align:center;padding-bottom:56px;border-bottom:1px solid rgba(201,169,110,0.07);}
+.ft-nl h4{font-family:var(--Fd);font-size:1.8rem;font-style:italic;color:var(--cream);margin-bottom:6px;}
+.ft-nl p{font-family:var(--Fb);font-size:13px;color:rgba(250,246,240,0.32);margin-bottom:22px;}
+.nl-form{display:flex;max-width:460px;margin:0 auto;background:rgba(255,255,255,0.045);border:1.5px solid rgba(201,169,110,0.16);border-radius:50px;overflow:hidden;transition:border-color .3s;}
+.nl-form:focus-within{border-color:rgba(201,169,110,0.42);}
+.nl-form input{flex:1;padding:15px 22px;background:none;border:none;outline:none;font-family:var(--Fb);font-size:13px;color:var(--cream);}
+.nl-form input::placeholder{color:rgba(250,246,240,0.22);}
+.nl-form button{padding:12px 26px;background:linear-gradient(130deg,var(--gold),var(--rose));border:none;border-radius:50px;cursor:pointer;font-family:var(--Fb);font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#fff;margin:5px;transition:opacity .3s;}
+.nl-form button:hover{opacity:.85;}
+.ft-cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:56px;padding:56px 0;}
+.ft-brand h3{font-family:var(--Fd);font-size:1.5rem;font-style:italic;color:var(--cream);margin-bottom:13px;}
+.ft-brand p{font-family:var(--Fb);font-size:13.5px;line-height:1.9;color:rgba(250,246,240,0.32);margin-bottom:22px;font-weight:300;}
+.ft-brand-btn{display:inline-flex;align-items:center;gap:9px;padding:13px 24px;background:linear-gradient(130deg,var(--gold),var(--rose));color:#fff;font-family:var(--Fb);font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;border-radius:50px;text-decoration:none;transition:transform .3s,box-shadow .3s;}
+.ft-brand-btn:hover{transform:translateY(-3px);box-shadow:0 10px 36px rgba(201,169,110,0.3);color:#fff;}
+.ft-col h4{font-family:var(--Fb);font-size:9.5px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:22px;}
+.ft-col ul{list-style:none;}
+.ft-col ul li{margin-bottom:10px;}
+.ft-col ul li a{font-family:var(--Fb);font-size:13.5px;color:rgba(250,246,240,0.38);text-decoration:none;font-weight:300;transition:color .2s,padding-left .2s;}
+.ft-col ul li a:hover{color:var(--gold2);padding-left:6px;}
+.ft-ci{display:flex;align-items:flex-start;gap:13px;margin-bottom:16px;}
+.ft-ci-ic{width:34px;height:34px;border-radius:10px;background:rgba(201,169,110,0.07);border:1px solid rgba(201,169,110,0.13);display:flex;align-items:center;justify-content:center;color:var(--gold);font-size:.82rem;flex-shrink:0;}
+.ft-ci-t{font-family:var(--Fb);font-size:13px;line-height:1.7;color:rgba(250,246,240,0.35);font-weight:300;}
+.ft-bot{border-top:1px solid rgba(201,169,110,0.06);padding:24px 0;display:flex;align-items:center;justify-content:space-between;}
+.ft-bot p{font-family:var(--Fb);font-size:12px;color:rgba(250,246,240,0.22);font-weight:300;}
+.ft-bot a{color:var(--gold);text-decoration:none;}
+.ft-socs{display:flex;gap:10px;}
+.ft-soc{width:36px;height:36px;border-radius:50%;background:rgba(201,169,110,0.06);border:1px solid rgba(201,169,110,0.1);display:flex;align-items:center;justify-content:center;color:rgba(201,169,110,0.45);font-size:.82rem;text-decoration:none;transition:background .3s,color .3s,transform .3s;}
+.ft-soc:hover{background:var(--gold);color:var(--ink);transform:translateY(-4px);}
+@media(max-width:960px){.ft-cols{grid-template-columns:1fr 1fr;gap:38px;}.ft-in{padding:0 28px;}}
+@media(max-width:640px){.ft-cols{grid-template-columns:1fr;gap:32px;}.ft-in{padding:0 18px;}.ft-bot{flex-direction:column;gap:16px;text-align:center;}}
+</style>
+    </head>
+    
+    <body>
+        <!-- Preloading -->
+        <div class="preloader text-center">
+            <div class="la-ball-scale-multiple la-2x">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- Preloading -->
+        
+        <!-- ════ OVERLAY ════ -->
+<div class="pw-overlay" id="pwOverlay"></div>
+
+<!-- ════ HEADER ════ -->
+<header class="pw-header" id="pwHeader">
+  <div class="pw-inner">
+
+    <!-- LOGO -->
+    <a href="index.html" class="pw-logo">
+      <div class="pw-logo-mark"></div>
+      <div class="pw-logo-text">
+        <span class="pw-logo-name">Pretty Women</span>
+        <span class="pw-logo-tagline">Beauty Academy</span>
+      </div>
+    </a>
+
+    <!-- DESKTOP NAV -->
+    <nav class="pw-nav" aria-label="Main Navigation">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-drop">
+          <a href="javascript:void(0);">
+            Courses <span class="chev"></span>
+          </a>
+          <ul class="pw-drop">
+            <li><a href="booking.html">Appointment <span class="sub-arrow">›</span></a></li>
+            <li><a href="courses.html">Packages <span class="sub-arrow">›</span></a></li>
+            <li><a href="testimonial.html">Testimonials <span class="sub-arrow">›</span></a></li>
+            <li><a href="faq.html">FAQ <span class="sub-arrow">›</span></a></li>
+            <li class="has-drop">
+              <a href="javascript:void(0);">Gallery <span class="sub-arrow">›</span></a>
+              <ul class="pw-sub">
+                <li><a href="gallery.html">Gallery Page</a></li>
+                <li><a href="single-gallery.html">Gallery Details</a></li>
+              </ul>
+            </li>
+            <li class="has-drop">
+              <a href="javascript:void(0);">Team <span class="sub-arrow">›</span></a>
+              <ul class="pw-sub">
+                <li><a href="team.html">Team Members</a></li>
+                <li><a href="single-team.html">Team Details</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- RIGHT ACTIONS -->
+    <div class="pw-actions">
+      <a href="booking.html" class="pw-cta" style="color:white; text-decoration:none;">
+  <span class="pw-cta-dot"></span>
+  Book Now
+</a>
+      <!-- Hamburger -->
+      <button class="pw-burger" id="pwBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- ════ MOBILE DRAWER ════ -->
+<nav class="pw-drawer" id="pwDrawer" aria-label="Mobile Navigation">
+
+  <ul class="pw-mobile-nav">
+    <li class="active">
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+    <li id="mobCourses">
+      <button class="mobile-toggle" data-target="mobCoursesSub">
+        Courses <span class="mob-chev">›</span>
+      </button>
+      <ul class="pw-mob-sub" id="mobCoursesSub">
+        <li><a href="booking.html">Appointment</a></li>
+        <li><a href="courses.html">Packages</a></li>
+        <li><a href="testimonial.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="team.html">Team Members</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="contact.html">Contact</a>
+    </li>
+  </ul>
+
+  <div class="pw-drawer-footer">
+    <a href="booking.html" class="pw-drawer-cta">
+      ✦ &nbsp; Book an Appointment
+    </a>
+    <p class="pw-drawer-info">Srikakulam, Andhra Pradesh</p>
+  </div>
+
+</nav>
+
+<!-- Demo backdrop -->
+
+
+<script>
+(function(){
+  const header  = document.getElementById('pwHeader');
+  const burger  = document.getElementById('pwBurger');
+  const drawer  = document.getElementById('pwDrawer');
+  const overlay = document.getElementById('pwOverlay');
+
+  /* ── Sticky scroll ── */
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 30);
+  }, { passive: true });
+
+  /* ── Drawer open / close ── */
+  function openDrawer(){
+    drawer.classList.add('open');
+    overlay.classList.add('open');
+    burger.classList.add('open');
+    burger.setAttribute('aria-expanded','true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer(){
+    drawer.classList.remove('open');
+    overlay.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow = '';
+  }
+
+  burger.addEventListener('click', () => {
+    drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+  });
+  overlay.addEventListener('click', closeDrawer);
+
+  /* ── Mobile accordion ── */
+  document.querySelectorAll('.mobile-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const parent = btn.closest('li');
+      const isOpen = parent.classList.contains('drop-open');
+      // close all
+      document.querySelectorAll('.pw-mobile-nav > li').forEach(li => li.classList.remove('drop-open'));
+      if(!isOpen) parent.classList.add('drop-open');
+    });
+  });
+
+  /* ── Close drawer on nav link click ── */
+  drawer.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', closeDrawer);
+  });
+
+  /* ── Keyboard ESC ── */
+  document.addEventListener('keydown', e => {
+    if(e.key === 'Escape') closeDrawer();
+  });
+})();
+</script>
+        
+        <!-- popup sidebar widget -->
+        <section class="popup_sidebar_sec">
+            <div class="popup_sidebar_overlay"></div>
+            <div class="widget_area">
+                <a href="javascript:void(0);" class="widget_closer"><i class="icofont-close-line"></i></a>
+                <div class="center_align">
+                   <div class="about_widget_area">
+                        <div class="wd_logo">
+                            <a href="index.html"><img src="images/logo.png" alt="makeover"/></a>
+                        </div>
+                        <p>
+                            We take a bottom-line approach to each project. Our clients consistently see increased traffic, 
+                            enhanced brand loyalty and new leads thanks to our work.
+                        </p>
+                        <div class="icon_box_04">
+                            <i class="noun-noun_call_1624888"></i>
+                            <h4>Call Us</h4>
+                            <p>+91 XXXXXXXXXX</p>
+                        </div>
+                        <div class="icon_box_04">
+                            <i class="noun-noun_Email_485891"></i>
+                            <h4>Write us</h4>
+                            <p>hello@makeover.com</p>
+                        </div>
+                        <div class="icon_box_04">
+                            <i class="noun-noun_Address_1271842"></i>
+                            <h4>Address</h4>
+                            <p>Srikakulam,<br> Andhra Pradesh</p>
+                        </div>
+                        <div class="social_item">
+                            <a href="https://www.facebook.com/"><i class="icofont-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="icofont-twitter"></i></a>
+                            <a href="https://bebo.com/"><i class="icofont-bebo"></i></a>
+                            <a href="https://dribbble.com/"><i class="icofont-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popup sidebar widget -->
+
+        <!-- Begin:: Slider Section -->
+       <body style="margin:0;background:#0e080c">
+
+<section class="slider_01 hw-hero" id="hwHero">
+
+  <!-- ── Slide backgrounds ── -->
+  <div class="hw-slides">
+    <!-- Slide 1: Professional makeup artist -->
+    <div class="hw-slide-bg hw-active" style="background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=1600&h=900&fit=crop&q=90')"></div>
+    <!-- Slide 2: Bridal hair updo luxury -->
+    <div class="hw-slide-bg" style="background-image:url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=1600&h=900&fit=crop&q=90')"></div>
+    <!-- Slide 3: Men barber precision fade -->
+    <div class="hw-slide-bg" style="background-image:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&h=900&fit=crop&q=90')"></div>
+  </div>
+
+  <!-- Overlays -->
+  <div class="hw-overlay"></div>
+  <div class="hw-grain"></div>
+
+  <!-- Particles -->
+  <canvas id="hw-particles"></canvas>
+
+  <!-- Vertical accent lines -->
+  <div class="hw-line-v"></div>
+  <!-- Bottom diagonal slash -->
+  <div class="hw-slash"></div>
+
+  <!-- ── CONTENT ── -->
+  <div class="hw-content">
+
+    <!-- LEFT TEXT -->
+    <div class="hw-text">
+      <div class="hw-text-inner" id="hwTextInner">
+
+        <!-- Eyebrow -->
+        <div class="hw-eyebrow">
+          <div class="hw-eyebrow-line"></div>
+          <span id="hwEyebrow">Beauty Academy · Est. 2006</span>
+          <div class="hw-eyebrow-line right"></div>
+        </div>
+
+        <!-- Main heading -->
+        <h1 class="hw-heading" id="hwHeading">
+          Turn Your Passion into<br>
+          <em>Beauty Career</em>
+        </h1>
+
+        <!-- Typing effect line -->
+        <div class="hw-typing-wrap">
+          <span class="hw-typing-static">Learn</span>
+          <span id="hw-typed"></span><span class="hw-cursor"></span>
+        </div>
+
+        <!-- Subtitle -->
+        <p class="hw-sub" id="hwSub">
+          Join thousands of students who transformed their passion into a thriving beauty profession. Expert mentors, hands-on training, globally recognized certification.
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="hw-cta">
+          <a href="booking.html" class="hw-btn-primary">
+            <i class="icofont-ui-user"></i>
+            <b>Join Today</b>
+          </a>
+          <a href="courses.html" class="hw-btn-ghost">
+            Explore Courses
+            <i class="icofont-long-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="hw-stats">
+          <div class="hw-stat">
+            <span class="hw-stat-num" data-target="5000">0+</span>
+            <span class="hw-stat-label">Students Trained</span>
+          </div>
+          <div class="hw-stat-div"></div>
+          <div class="hw-stat">
+            <span class="hw-stat-num" data-target="20">0+</span>
+            <span class="hw-stat-label">Years Experience</span>
+          </div>
+          <div class="hw-stat-div"></div>
+          <div class="hw-stat">
+            <span class="hw-stat-num" data-target="98">0%</span>
+            <span class="hw-stat-label">Placement Rate</span>
+          </div>
+        </div>
+
+      </div><!-- /hw-text-inner -->
+    </div>
+
+    <!-- RIGHT CARD -->
+    <div class="hw-card-wrap">
+      <div class="hw-float-badge">
+        <span class="hw-float-badge-num">★</span>
+        <span class="hw-float-badge-txt">Top Rated</span>
+      </div>
+      <div class="hw-card">
+        <!-- Course preview image -->
+        <img class="hw-card-img"
+          src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&h=400&fit=crop&q=85"
+          id="hwCardImg" alt="Course preview">
+        <div class="hw-card-img-fade"></div>
+        <div class="hw-card-body">
+          <div class="hw-badge">Now Enrolling</div>
+          <div class="hw-card-title">Professional Beauty Courses</div>
+          <div class="hw-card-desc">Makeup · Hair Cutting · Hair Styling · Bridal · Men's Grooming</div>
+          <div class="hw-skills">
+            <div class="hw-skill-row">
+              <span class="hw-skill-name">Makeup</span>
+              <div class="hw-skill-bar"><div class="hw-skill-fill" data-w="95"></div></div>
+              <span class="hw-skill-pct">95%</span>
+            </div>
+            <div class="hw-skill-row">
+              <span class="hw-skill-name">Hair Styling</span>
+              <div class="hw-skill-bar"><div class="hw-skill-fill" data-w="90"></div></div>
+              <span class="hw-skill-pct">90%</span>
+            </div>
+            <div class="hw-skill-row">
+              <span class="hw-skill-name">Bridal</span>
+              <div class="hw-skill-bar"><div class="hw-skill-fill" data-w="98"></div></div>
+              <span class="hw-skill-pct">98%</span>
+            </div>
+            <div class="hw-skill-row">
+              <span class="hw-skill-name">Men's Cut</span>
+              <div class="hw-skill-bar"><div class="hw-skill-fill" data-w="88"></div></div>
+              <span class="hw-skill-pct">88%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /hw-content -->
+
+  <!-- ── Slide indicators ── -->
+  <div class="hw-indicators" id="hwDots">
+    <div class="hw-dot hw-active" data-s="0"></div>
+    <div class="hw-dot" data-s="1"></div>
+    <div class="hw-dot" data-s="2"></div>
+  </div>
+
+  <!-- ── Scroll hint ── -->
+  <div class="hw-scroll-hint">
+    <div class="hw-scroll-mouse"><div class="hw-scroll-wheel"></div></div>
+    <span>Scroll</span>
+  </div>
+
+</section>
+
+<script>
+(function(){
+'use strict';
+
+/* ════════════════════════════
+   1. PARTICLES
+════════════════════════════ */
+(function(){
+  var canvas = document.getElementById('hw-particles');
+  var ctx = canvas.getContext('2d');
+  var pts = [];
+  var W, H;
+
+  function resize(){
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // Create gold dust particles
+  for(var i=0; i<55; i++){
+    pts.push({
+      x: Math.random()*W,
+      y: Math.random()*H,
+      r: Math.random()*1.4+0.3,
+      vx: (Math.random()-.5)*.25,
+      vy: (Math.random()-.5)*.18 - .12,
+      a: Math.random()*.5+.1,
+      da: (Math.random()-.5)*.004
+    });
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,W,H);
+    pts.forEach(function(p){
+      p.x += p.vx; p.y += p.vy; p.a += p.da;
+      if(p.a < .05) p.da = Math.abs(p.da);
+      if(p.a > .55) p.da = -Math.abs(p.da);
+      if(p.x<-10) p.x=W+10; if(p.x>W+10) p.x=-10;
+      if(p.y<-10) p.y=H+10; if(p.y>H+10) p.y=-10;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+      ctx.fillStyle = 'rgba(201,169,110,'+p.a+')';
+      ctx.fill();
+    });
+    // Draw connecting lines for nearby particles
+    for(var i=0;i<pts.length;i++){
+      for(var j=i+1;j<pts.length;j++){
+        var dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y;
+        var dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<120){
+          ctx.beginPath();
+          ctx.moveTo(pts[i].x,pts[i].y);
+          ctx.lineTo(pts[j].x,pts[j].y);
+          ctx.strokeStyle='rgba(201,169,110,'+((.06)*(1-dist/120))+')';
+          ctx.lineWidth=.5;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+/* ════════════════════════════
+   2. TYPING EFFECT
+════════════════════════════ */
+(function(){
+  var words = [
+    'Professional Makeup',
+    'Bridal Artistry',
+    'Hair Styling',
+    'Hair Cutting',
+    'Men\'s Grooming',
+    'Beauty Techniques'
+  ];
+  var el = document.getElementById('hw-typed');
+  var wi = 0, ci = 0, deleting = false;
+  var typeSpeed = 65, deleteSpeed = 38, pauseAfter = 1800, pauseBefore = 500;
+
+  function type(){
+    var word = words[wi];
+    if(!deleting){
+      el.textContent = word.substring(0, ci+1);
+      ci++;
+      if(ci === word.length){
+        deleting = true;
+        setTimeout(type, pauseAfter);
+        return;
+      }
+      setTimeout(type, typeSpeed);
+    } else {
+      el.textContent = word.substring(0, ci-1);
+      ci--;
+      if(ci === 0){
+        deleting = false;
+        wi = (wi+1) % words.length;
+        setTimeout(type, pauseBefore);
+        return;
+      }
+      setTimeout(type, deleteSpeed);
+    }
+  }
+  // Start after hero animation settles
+  setTimeout(type, 1400);
+})();
+
+/* ════════════════════════════
+   3. SLIDE SHOW
+════════════════════════════ */
+(function(){
+  var bgs   = document.querySelectorAll('.hw-slides .hw-slide-bg');
+  var dots  = document.querySelectorAll('.hw-indicators .hw-dot');
+  var cur   = 0;
+  var timer;
+
+  // Slide data: bg-index → eyebrow / heading em / sub / card img
+  var slideData = [
+    {
+      eyebrow: 'Beauty Academy · Est. 2009',
+      em:      'Beauty Career',
+      heading: 'Turn Your Passion into',
+      sub:     'Join thousands of students who transformed their passion into a thriving beauty profession. Expert mentors, hands-on training, globally recognized certification.',
+      cardImg: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&h=400&fit=crop&q=85'
+    },
+    {
+      eyebrow: 'Bridal Makeup · Hairstyling',
+      em:      'Bridal Excellence',
+      heading: 'Master the Art of',
+      sub:     'Become the most sought-after bridal artist in your city. Learn head-to-toe bridal looks from India\'s finest beauty educators.',
+      cardImg: 'https://images.unsplash.com/photo-1606503153255-59d8b8b82176?w=700&h=400&fit=crop&q=85'
+    },
+    {
+      eyebrow: 'Men\'s Grooming · Barbering',
+      em:      'Expert Barber',
+      heading: 'Become a Certified',
+      sub:     'Fade cuts, beard styling, pompadours and more — master every men\'s grooming technique with hands-on training from working professionals.',
+      cardImg: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=700&h=400&fit=crop&q=85'
+    }
+  ];
+
+  function goTo(idx){
+    // Swap bg
+    bgs[cur].classList.remove('hw-active');
+    dots[cur].classList.remove('hw-active');
+    cur = idx;
+    bgs[cur].classList.add('hw-active');
+    dots[cur].classList.add('hw-active');
+
+    // Animate text out
+    var inner = document.getElementById('hwTextInner');
+    inner.classList.add('hw-exit');
+
+    setTimeout(function(){
+      // Update text content
+      var d = slideData[cur];
+      document.getElementById('hwEyebrow').textContent = d.eyebrow;
+      var h = document.getElementById('hwHeading');
+      h.innerHTML = d.heading + '<br><em>' + d.em + '</em>';
+      document.getElementById('hwSub').textContent = d.sub;
+      // Update card image
+      var ci = document.getElementById('hwCardImg');
+      if(ci) ci.src = d.cardImg;
+
+      inner.classList.remove('hw-exit');
+      inner.classList.add('hw-enter');
+      requestAnimationFrame(function(){
+        requestAnimationFrame(function(){
+          inner.classList.remove('hw-enter');
+        });
+      });
+    }, 480);
+  }
+
+  function next(){
+    goTo((cur+1) % bgs.length);
+  }
+
+  function start(){
+    timer = setInterval(next, 5500);
+  }
+
+  dots.forEach(function(dot){
+    dot.addEventListener('click', function(){
+      clearInterval(timer);
+      goTo(parseInt(dot.dataset.s));
+      start();
+    });
+  });
+
+  start();
+})();
+
+/* ════════════════════════════
+   4. ANIMATED STAT COUNTERS
+════════════════════════════ */
+(function(){
+  var els = document.querySelectorAll('.hw-stat-num[data-target]');
+  var done = false;
+
+  function run(){
+    if(done) return;
+    done = true;
+    els.forEach(function(el){
+      var target = +el.dataset.target;
+      var suffix = el.textContent.includes('%') ? '%' : '+';
+      var duration = 1800;
+      var start = performance.now();
+      function update(now){
+        var t = Math.min((now-start)/duration, 1);
+        var eased = 1-Math.pow(1-t,3);
+        el.textContent = Math.floor(eased*target) + suffix;
+        if(t<1) requestAnimationFrame(update);
+      }
+      requestAnimationFrame(update);
+    });
+  }
+
+  // Trigger when section enters view
+  if('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting) run(); });
+    },{threshold:0.3});
+    obs.observe(document.getElementById('hwHero'));
+  } else {
+    setTimeout(run, 1600);
+  }
+})();
+
+/* ════════════════════════════
+   5. SKILL BARS ANIMATION
+════════════════════════════ */
+setTimeout(function(){
+  document.querySelectorAll('.hw-skill-fill').forEach(function(bar){
+    bar.style.width = bar.dataset.w + '%';
+  });
+}, 1200);
+
+})();
+</script>
+        <!-- End:: Slider Section -->
+
+        <!-- Begin:: Welcome Section -->
+        <section class="commonSection welcomeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="sectionTitle text-center">
+                            <img src="images/icons/1.png" alt=""/>
+                            <h5 class="primaryFont">Welcome</h5>
+                            <h2><span class="colorPrimary fontWeight400">Pretty Women Beauty<br></span> Salon & Academy </h2>
+                            <p>
+                                Pretty Women Beauty Salon & Academy offers professional beauty services and training for girls who want to build a career in the beauty industry. 
+                                <br/> We help women gain skills and create a bright future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div  class="row">
+                    <div class="col-md-6">
+                        <div class="actionBox">
+                            <h3>Make-Up Course</h3>
+                            <p>
+                                We offer the best services <br/>for your beauty and care.
+                            </p>
+                            <a href="booking.html" class="mo_btn">
+<i class="icofont-location-pin"></i> Visit Today
+</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="actionBox abBg2">
+                            <h3>Hair Styling Course</h3>
+<p>
+    Develop creative hair skills
+    <br/>with expert training.
+</p>
+                            <a href="booking.html" class="mo_btn">
+<i class="icofont-education"></i> Register Now
+</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Welcome Section -->
+
+        <!-- Begin:: About Section -->
+        <section class="commonSection aboutSection">
+            <div class="layer_img move_anim">
+                <img src="images/bg/7.png" alt=""/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 noPaddingRight clearfix">
+                        <div class="aboutImg float-right clearfix">
+                            <div class="shape1">
+                                <img src="images/bg/4.png" alt=""/>
+                            </div>
+                            <div class="shape2">
+                                <img src="images/bg/5.png" alt=""/>
+                            </div>
+                            <div class="shape3 move_anim_two">
+                                <img src="images/bg/6.png" alt=""/>
+                            </div>
+                            <div class="abImg float-right">
+                                <img src="images/home_01/1.jpg" alt="Makeover"/>
+                            </div>
+                            <div class="expCounter">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                     width="196.000000pt" height="188.000000pt" viewBox="0 0 196.000000 188.000000"
+                                     preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,188.000000) scale(0.050000,-0.050000)"
+                                       fill="#252525" stroke="none">
+                                    <path d="M1670 3710 c-709 -191 -1537 -962 -1631 -1517 -69 -402 41 -1322 178
+                                          -1505 209 -276 1124 -669 1557 -668 417 2 1303 405 1683 767 611 582 578 1429
+                                          -86 2196 -502 580 -1177 869 -1701 727z"/>
+                                    </g>
+                                </svg>
+                                <div class="expContent funfact" data-count="20">
+                                    <h2><span class="counter">20</span><i>+</i></h2>
+                                    <p>Years of Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="abContent">
+                            <h3>About Us</h3>
+                            <h2>
+                                Pretty Women Beauty <span class="fontWeight400 colorPrimary">Salon & Academy</span>
+                            </h2>
+                            <p class="leads">
+                                Pretty Women Beauty Salon & Academy was started with a vision to help women become confident and independent.
+                            </p>
+                            <p>
+                                We provide professional beauty services while also training students in modern beauty techniques.
+                            </p>
+                            <a href="about.html" class="mo_btn mob_lg mob_shadow"><i class="icofont-long-arrow-right"></i>Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: About Section -->
+
+        <!-- Begin:: Service Section -->
+     <section class="why-section">
+  <div class="noise-overlay"></div>
+  <div class="diag-line"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="section-header">
+      <div class="eyebrow">What We Do</div>
+      <h2>Why Choose <em>Pretty Women</em></h2>
+      <p class="sub">We provide hands-on practical training with professional equipment, so students learn real salon techniques. Every student is treated like family — with personal attention and support to help them build confidence and start a successful beauty career.</p>
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards-grid">
+
+      <!-- Card 1 -->
+      <div class="why-card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80')"></div>
+        <div class="card-overlay"></div>
+        <div class="card-shimmer"></div>
+        <div class="card-border-bottom"></div>
+        <div class="card-body">
+          <span class="card-num">01</span>
+          <div class="card-icon-wrap">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 9.5L12 3l9 6.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z"/>
+              <path d="M9 22V12h6v10" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Superior Facilities</h3>
+          <div class="card-rule"></div>
+          <p class="card-text">Modern, fully-equipped training spaces designed to mirror professional salon environments — where every tool and technique is world-class.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="why-card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&q=80')"></div>
+        <div class="card-overlay"></div>
+        <div class="card-shimmer"></div>
+        <div class="card-border-bottom"></div>
+        <div class="card-body">
+          <span class="card-num">02</span>
+          <div class="card-icon-wrap">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5" fill="var(--dark)"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Hands On Practice</h3>
+          <div class="card-rule"></div>
+          <p class="card-text">Learn by doing — practice real beauty techniques with live models under the guidance of experienced, industry-leading professionals.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="why-card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80')"></div>
+        <div class="card-overlay"></div>
+        <div class="card-shimmer"></div>
+        <div class="card-border-bottom"></div>
+        <div class="card-body">
+          <span class="card-num">03</span>
+          <div class="card-icon-wrap">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
+              <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
+              <path d="M2 12h20" stroke="#c9a96e" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Global Recognition</h3>
+          <div class="card-rule"></div>
+          <p class="card-text">Our internationally recognized certifications open doors across the globe — ensuring your credentials are respected wherever your ambitions take you.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="why-card">
+        <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?w=800&q=80')"></div>
+        <div class="card-overlay"></div>
+        <div class="card-shimmer"></div>
+        <div class="card-border-bottom"></div>
+        <div class="card-body">
+          <span class="card-num">04</span>
+          <div class="card-icon-wrap">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="7" width="20" height="14" rx="2" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
+              <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" fill="none" stroke="#c9a96e" stroke-width="1.5"/>
+              <line x1="12" y1="12" x2="12" y2="16" stroke="#c9a96e" stroke-width="1.5"/>
+              <line x1="10" y1="14" x2="14" y2="14" stroke="#c9a96e" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Career Opportunities</h3>
+          <div class="card-rule"></div>
+          <p class="card-text">Unlock endless possibilities in beauty, wellness, and fashion. We connect graduates with top salons, brands, and global placement networks.</p>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+    <!-- STATS BAR -->
+    <div class="stats-bar" id="statsBar">
+      <div class="stat-item">
+        <span class="stat-num" data-target="5000" data-suffix="+">0+</span>
+        <span class="stat-label">Students Trained</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="20" data-suffix="+">0+</span>
+        <span class="stat-label">Years of Excellence</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="98" data-suffix="%">0%</span>
+        <span class="stat-label">Placement Rate</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="40" data-suffix="+">0+</span>
+        <span class="stat-label">Expert Instructors</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+        <!-- End:: Service Section -->
+
+        <!-- Begin:: Appointment Section -->
+       <section class="appt-section">
+  <div class="appt-dots"></div>
+
+  <div class="appt-container">
+
+    <!-- HEADER -->
+    <div class="appt-header">
+      <div class="appt-eyebrow">Book A Session</div>
+      <h2>Make an <em>Appointment</em></h2>
+      <p>Book your spot with our quick and simple system — designed to save your time and give every student a smooth, personal experience.</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="appt-grid">
+
+      <!-- ── LEFT: FORM ── -->
+      <div class="appt-form-card">
+        <div class="form-title">Reserve Your Seat</div>
+        <p class="form-subtitle">Fill in the details below and we'll confirm your appointment within 24 hours.</p>
+
+        <form action="#" method="post">
+
+          <div class="form-row">
+            <div class="field-wrap">
+              <label>Full Name</label>
+              <input type="text" name="name" placeholder="e.g. Priya Sharma" />
+            </div>
+            <div class="field-wrap">
+              <label>Email Address</label>
+              <input type="email" name="email" placeholder="you@example.com" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field-wrap">
+              <label>Phone Number</label>
+              <input type="tel" name="phone" placeholder="+91 98765 43210" />
+            </div>
+            <div class="field-wrap">
+              <label>Course / Subject</label>
+              <div class="select-wrap">
+                <select name="select_subject">
+                  <option value="" disabled selected>Select a Course</option>
+                  <option>Basic Beautician Course</option>
+                  <option>Advanced Beautician Course</option>
+                  <option>Bridal Makeup Course</option>
+                  <option>Hair Styling Course</option>
+                  <option>Skin Care &amp; Facial Training</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="field-wrap">
+              <label>Preferred Date &amp; Time</label>
+              <div class="date-wrap">
+                <input type="datetime-local" name="date_time" />
+                <svg class="cal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="width:18px;height:18px;position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--gold);pointer-events:none">
+                  <rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row full">
+            <div class="field-wrap">
+              <label>Your Message</label>
+              <textarea name="message" placeholder="Any specific questions or requirements…"></textarea>
+            </div>
+          </div>
+
+          <button type="button" class="btn-submit" onclick="window.location.href='booking.html'">
+  <svg viewBox="0 0 24 24">
+    <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke="#fff" stroke-width="1.8" fill="none"/>
+  </svg>
+  Confirm Appointment
+</button>
+
+        </form>
+      </div>
+
+      <!-- ── RIGHT: SIDEBAR ── -->
+      <div class="appt-sidebar">
+
+        <!-- Hours card -->
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.8">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <h4>Working Hours</h4>
+          <ul class="hours-list">
+            <li>
+              <span class="day">Mon – Fri</span>
+              <span class="time">7:30 am – 1:00 am</span>
+            </li>
+            <div class="hours-divider"></div>
+            <li>
+              <span class="day">Saturday</span>
+              <span class="time">9:00 am – 1:00 am</span>
+            </li>
+            <div class="hours-divider"></div>
+            <li>
+              <span class="day">Sunday</span>
+              <span class="time">9:00 am – 11:30 pm</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Location card -->
+        <div class="info-card">
+          <div class="info-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--rose)" stroke-width="1.8">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5" fill="rgba(201,112,106,0.2)" stroke="var(--rose)"/>
+            </svg>
+          </div>
+          <h4>Our Location</h4>
+          <p>
+            Pretty Women Beauty Academy<br>
+            Srikakulam,<br>
+            Andhra Pradesh, India
+          </p>
+          <a href="https://maps.google.com/?q=Srikakulam,Andhra+Pradesh" target="_blank"
+            style="display:inline-flex;align-items:center;gap:7px;margin-top:16px;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-decoration:none;transition:color .2s"
+            onmouseover="this.style.color='var(--rose)'" onmouseout="this.style.color='var(--gold)'">
+            Get Directions
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Map embed -->
+       <div class="map-card">
+
+<iframe
+src="https://maps.google.com/maps?q=99%20Times%20Square%20Multi%20Cuisine%20Restaurant%20Srikakulam&t=&z=15&ie=UTF8&iwloc=&output=embed"
+allowfullscreen=""
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade"
+title="Pretty Women Beauty Academy Location">
+</iframe>
+
+<div class="map-label">
+99 Times Square Multi Cuisine Restaurant, Srikakulam
+</div>
+
+</div>
+
+      </div><!-- /sidebar -->
+
+    </div><!-- /grid -->
+  </div><!-- /container -->
+</section>
+
+<script>
+/* Scroll reveal for cards */
+const cards = document.querySelectorAll('.info-card, .map-card');
+const reveal = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      e.target.style.transitionDelay = (i * 0.08) + 's';
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+      reveal.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+cards.forEach(c => {
+  c.style.opacity = '0';
+  c.style.transform = 'translateY(20px)';
+  c.style.transition = 'opacity .6s ease, transform .6s ease';
+  reveal.observe(c);
+});
+
+/* Input focus label colour */
+document.querySelectorAll('.field-wrap input, .field-wrap select, .field-wrap textarea').forEach(el => {
+  el.addEventListener('focus', () => {
+    const label = el.closest('.field-wrap').querySelector('label');
+    if (label) label.style.color = 'var(--rose)';
+  });
+  el.addEventListener('blur', () => {
+    const label = el.closest('.field-wrap').querySelector('label');
+    if (label) label.style.color = 'var(--gold)';
+  });
+});
+</script>
+        <!-- End:: Appointment Section -->
+        
+        <!-- Begin:: Package Section -->
+           <section class="commonSection pricingSection ps-section">
+
+  <div class="ps-diag"></div>
+  <div class="ps-orb ps-orb-a"></div>
+  <div class="ps-orb ps-orb-b"></div>
+  <div class="ps-orb ps-orb-c"></div>
+
+  <div class="ps-container">
+
+    <!-- HEADER -->
+    <div class="ps-head-row">
+      <div class="ps-head">
+        <div class="ps-eyebrow">Courses We Offer</div>
+        <h2>Start Your <em>Beauty Career</em></h2>
+        <p>Begin your journey in the beauty industry with expert guidance. Our professional courses help you learn advanced skills and build a bright and successful future in beauty and wellness.</p>
+      </div>
+      <div class="ps-quote">"Beauty<br>is a Skill"</div>
+    </div>
+
+    <!-- TABS -->
+   <ul class="ps-tabs" id="psTabs">
+  <li>
+    <a class="ps-tab-btn ps-active" href="#" data-tab="makeup">
+      <i class="icofont-lipstick"></i>
+      <span>Make Up</span>
+    </a>
+  </li>
+
+  <li>
+    <a class="ps-tab-btn" href="#" data-tab="haircutting">
+      <i class="icofont-scissors"></i>
+      <span>Hair Cutting</span>
+    </a>
+  </li>
+
+  <li>
+    <a class="ps-tab-btn" href="#" data-tab="hairstyling">
+      <i class="icofont-girl-hair"></i>
+      <span>Hair Styling</span>
+    </a>
+  </li>
+
+  <li>
+    <a class="ps-tab-btn" href="#" data-tab="bridal">
+      <i class="icofont-heart-alt"></i>
+      <span>Bridal Make Up</span>
+    </a>
+  </li>
+
+  <li>
+    <a class="ps-tab-btn" href="#" data-tab="men">
+      <i class="icofont-beard"></i>
+      <span>Men Hair Cutting</span>
+    </a>
+  </li>
+</ul>
+
+    <!-- ════ MAKEUP TAB ════ -->
+    <div class="ps-tab-pane ps-show" id="ps-tab-makeup">
+      <div class="ps-slider-wrap" data-slider>
+        <div class="ps-main-slide">
+
+          <div class="ps-main-slide-inner ps-active">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Make Up</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&q=85&fit=crop" alt="Basic Makeup">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Basic Makeup</h4><p>Learn simple makeup steps and how to use makeup tools effectively — from brush techniques to blending secrets every artist should know.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">01</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Make Up</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=900&q=85&fit=crop" alt="Face Preparation">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Face Preparation</h4><p>How to clean, tone and prime the face before applying makeup for a flawless, long-lasting professional finish.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">02</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Make Up</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=900&q=85&fit=crop" alt="Eye Makeup">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Eye Makeup</h4><p>Master eyeliner, eyeshadow blending and mascara application — from daytime natural looks to dramatic evening styles.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">03</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Make Up</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&q=85&fit=crop" alt="Professional Makeup">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Professional Makeup</h4><p>Advanced makeup methods including contouring, highlighting and editorial techniques used in top fashion shoots and celebrity styling.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">04</span></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="ps-thumbs">
+          <div class="ps-thumb ps-active" data-index="0"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Basic Makeup</span><span class="ps-thumb-sub">Foundation • Tools</span></div></div>
+          <div class="ps-thumb" data-index="1"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Face Preparation</span><span class="ps-thumb-sub">Cleanse • Prime</span></div></div>
+          <div class="ps-thumb" data-index="2"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Eye Makeup</span><span class="ps-thumb-sub">Liner • Shadow</span></div></div>
+          <div class="ps-thumb" data-index="3"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Professional Makeup</span><span class="ps-thumb-sub">Advanced • Editorial</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ HAIR CUTTING TAB ════ -->
+    <div class="ps-tab-pane" id="ps-tab-haircutting">
+      <div class="ps-slider-wrap" data-slider>
+        <div class="ps-main-slide">
+
+          <div class="ps-main-slide-inner ps-active">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Hair Cutting</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=900&q=85&fit=crop" alt="Basic Hair Cutting">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Basic Hair Cutting</h4><p>Learn simple hair cutting steps and how to handle scissors, combs and cutting tools like a professional stylist from day one.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">01</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Hair Cutting</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&q=85&fit=crop" alt="Hair Sectioning">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Hair Sectioning</h4><p>Learn how to divide hair into clean sections before starting a haircut for precise, even and beautiful results every time.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">02</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Hair Cutting</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=85&fit=crop" alt="Layer Hair Cut">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Layer Hair Cut</h4><p>Learn popular layer cutting styles that add natural volume, bounce and dimension to all hair types and face shapes.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">03</span></div>
+            </div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap">
+              <span class="ps-slide-tag">Hair Cutting</span>
+              <img class="ps-main-img" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=85&fit=crop" alt="Step Hair Cut">
+            </div>
+            <div class="ps-slide-info">
+              <div><h4>Step Hair Cut</h4><p>Professional step cutting techniques for stylish graduated looks — mastering angles, tension and blending seamlessly.</p></div>
+              <div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">04</span></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="ps-thumbs">
+          <div class="ps-thumb ps-active" data-index="0"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Basic Cut</span><span class="ps-thumb-sub">Scissors • Tools</span></div></div>
+          <div class="ps-thumb" data-index="1"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Sectioning</span><span class="ps-thumb-sub">Precision • Parting</span></div></div>
+          <div class="ps-thumb" data-index="2"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Layer Cut</span><span class="ps-thumb-sub">Volume • Bounce</span></div></div>
+          <div class="ps-thumb" data-index="3"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Step Cut</span><span class="ps-thumb-sub">Graduated • Blend</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ HAIR STYLING TAB ════ -->
+    <div class="ps-tab-pane" id="ps-tab-hairstyling">
+      <div class="ps-slider-wrap" data-slider>
+        <div class="ps-main-slide">
+
+          <div class="ps-main-slide-inner ps-active">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&q=85&fit=crop" alt="Women Hair Styling"></div>
+            <div class="ps-slide-info"><div><h4>Women Hair Styling</h4><p>Elegant hair styling methods for parties and special occasions — curls, waves and updos using professional tools.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">01</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=900&q=85&fit=crop" alt="Hair Straightening"></div>
+            <div class="ps-slide-info"><div><h4>Hair Straightening</h4><p>Professional hair straightening and smoothing techniques for a sleek, frizz-free finish that lasts all day.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">02</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=900&q=85&fit=crop" alt="Hair Coloring"></div>
+            <div class="ps-slide-info"><div><h4>Hair Coloring</h4><p>Understanding hair colors, highlights, balayage and application techniques for stunning salon-quality transformations.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">03</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=85&fit=crop" alt="Hair Spa"></div>
+            <div class="ps-slide-info"><div><h4>Hair Spa Treatment</h4><p>Deep conditioning and scalp nourishment therapy — revive damaged hair and promote long-term hair health.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">04</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=900&q=85&fit=crop" alt="Hair Smoothening"></div>
+            <div class="ps-slide-info"><div><h4>Hair Smoothening</h4><p>Advanced keratin and smoothening treatment techniques for silky, manageable hair with long-lasting results.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">05</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=900&q=85&fit=crop" alt="Bridal Hair Styling"></div>
+            <div class="ps-slide-info"><div><h4>Bridal Hair Styling</h4><p>Traditional and modern bridal hairstyle techniques — from classic buns and braids to romantic flowing curls.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">06</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Hair Styling</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=85&fit=crop" alt="Beard Grooming"></div>
+            <div class="ps-slide-info"><div><h4>Men Beard & Hair Grooming</h4><p>Professional beard shaping, trimming and men's grooming methods for a sharp, polished and confident look.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">07</span></div></div>
+          </div>
+
+        </div>
+        <div class="ps-thumbs">
+          <div class="ps-thumb ps-active" data-index="0"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Women Styling</span><span class="ps-thumb-sub">Curls • Updos</span></div></div>
+          <div class="ps-thumb" data-index="1"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Straightening</span><span class="ps-thumb-sub">Smooth • Sleek</span></div></div>
+          <div class="ps-thumb" data-index="2"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Hair Coloring</span><span class="ps-thumb-sub">Highlights • Balayage</span></div></div>
+          <div class="ps-thumb" data-index="3"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Hair Spa</span><span class="ps-thumb-sub">Nourish • Restore</span></div></div>
+          <div class="ps-thumb" data-index="4"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Smoothening</span><span class="ps-thumb-sub">Keratin • Silky</span></div></div>
+          <div class="ps-thumb" data-index="5"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Bridal Hair</span><span class="ps-thumb-sub">Elegant • Classic</span></div></div>
+          <div class="ps-thumb" data-index="6"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Beard Grooming</span><span class="ps-thumb-sub">Trim • Shape</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ BRIDAL TAB ════ -->
+    <div class="ps-tab-pane" id="ps-tab-bridal">
+      <div class="ps-slider-wrap" data-slider>
+        <div class="ps-main-slide">
+
+          <div class="ps-main-slide-inner ps-active">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=900&q=85&fit=crop" alt="Bridal Skin Prep"></div>
+            <div class="ps-slide-info"><div><h4>Bridal Skin Preparation</h4><p>Preparing the bride's skin with deep cleansing, toning and hydration — the essential foundation for flawless bridal makeup.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">01</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&q=85&fit=crop" alt="Bridal Base"></div>
+            <div class="ps-slide-info"><div><h4>Bridal Base Makeup</h4><p>Applying long-lasting foundation and creating a flawless photo-ready bridal base that stays perfect through the entire ceremony.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">02</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=900&q=85&fit=crop" alt="Bridal Eye Makeup"></div>
+            <div class="ps-slide-info"><div><h4>Bridal Eye Makeup</h4><p>Stunning eye makeup for bridal looks — from soft smoky elegance to bold dramatic eyes that photograph beautifully.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">03</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=900&q=85&fit=crop" alt="Contouring"></div>
+            <div class="ps-slide-info"><div><h4>Contouring & Highlight</h4><p>Sculpt and define the face with professional contouring and highlighting — creating dimension that glows on camera.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">04</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?w=900&q=85&fit=crop" alt="Bridal Hair"></div>
+            <div class="ps-slide-info"><div><h4>Bridal Hairstyle</h4><p>Elegant bridal hair styling — traditional buns, braided updos and modern romantic waves for every wedding theme.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">05</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Bridal</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1606503153255-59d8b8b82176?w=900&q=85&fit=crop" alt="Final Bridal Look"></div>
+            <div class="ps-slide-info"><div><h4>Final Bridal Look</h4><p>Completing the full bridal look professionally — the finishing touches that bring everything together for a breathtaking result.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">06</span></div></div>
+          </div>
+
+        </div>
+        <div class="ps-thumbs">
+          <div class="ps-thumb ps-active" data-index="0"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Skin Prep</span><span class="ps-thumb-sub">Cleanse • Prime</span></div></div>
+          <div class="ps-thumb" data-index="1"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Base Makeup</span><span class="ps-thumb-sub">Foundation • Cover</span></div></div>
+          <div class="ps-thumb" data-index="2"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Eye Makeup</span><span class="ps-thumb-sub">Dramatic • Elegant</span></div></div>
+          <div class="ps-thumb" data-index="3"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Contour</span><span class="ps-thumb-sub">Sculpt • Glow</span></div></div>
+          <div class="ps-thumb" data-index="4"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Bridal Hair</span><span class="ps-thumb-sub">Updo • Braid</span></div></div>
+          <div class="ps-thumb" data-index="5"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1606503153255-59d8b8b82176?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Final Look</span><span class="ps-thumb-sub">Complete • Glam</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════ MEN HAIR CUTTING TAB ════ -->
+    <div class="ps-tab-pane" id="ps-tab-men">
+      <div class="ps-slider-wrap" data-slider>
+        <div class="ps-main-slide">
+
+          <div class="ps-main-slide-inner ps-active">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=900&q=85&fit=crop" alt="Buzz Cut"></div>
+            <div class="ps-slide-info"><div><h4>Buzz Cut</h4><p>Learn clean and even buzz cutting techniques using clippers — mastering guard lengths and fade transitions for a sharp finish.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">01</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1570383403014-18b2ec4ac6dd?w=900&q=85&fit=crop" alt="Crew Cut"></div>
+            <div class="ps-slide-info"><div><h4>Crew Cut</h4><p>Short and stylish crew cut techniques — precise tapering, blending and finishing for a timeless modern men's look.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">02</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=900&q=85&fit=crop" alt="Fade Cut"></div>
+            <div class="ps-slide-info"><div><h4>Fade Hair Cut</h4><p>Professional low, mid and high fade techniques — creating seamless gradient transitions that define the modern barber's art.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">03</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=85&fit=crop" alt="Taper Cut"></div>
+            <div class="ps-slide-info"><div><h4>Taper Cut</h4><p>Clean taper haircut techniques that create a sharp, naturally graduated look from top to neckline.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">04</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=900&q=85&fit=crop" alt="Undercut"></div>
+            <div class="ps-slide-info"><div><h4>Undercut Style</h4><p>Modern undercut haircut techniques — disconnected, tapered and skin-close variations for edgy statement looks.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">05</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=85&fit=crop" alt="Pompadour"></div>
+            <div class="ps-slide-info"><div><h4>Pompadour Style</h4><p>Classic and modern pompadour haircut and styling — volume, hold and the finishing techniques that make it iconic.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">06</span></div></div>
+          </div>
+
+          <div class="ps-main-slide-inner">
+            <div class="ps-main-img-wrap"><span class="ps-slide-tag">Men's Cut</span><img class="ps-main-img" src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=900&q=85&fit=crop" alt="Beard Styling"></div>
+            <div class="ps-slide-info"><div><h4>Beard Styling & Finish</h4><p>Professional beard shaping, line-up and styling — complete men's grooming from haircut to beard for a powerful polished look.</p></div><div class="ps-slide-footer"><div class="ps-arrows"><div class="ps-arrow ps-prev">&#8592;</div><div class="ps-arrow ps-next">&#8594;</div></div><span class="ps-slide-counter">07</span></div></div>
+          </div>
+
+        </div>
+        <div class="ps-thumbs">
+          <div class="ps-thumb ps-active" data-index="0"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Buzz Cut</span><span class="ps-thumb-sub">Clean • Even</span></div></div>
+          <div class="ps-thumb" data-index="1"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1570383403014-18b2ec4ac6dd?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Crew Cut</span><span class="ps-thumb-sub">Sharp • Classic</span></div></div>
+          <div class="ps-thumb" data-index="2"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Fade Cut</span><span class="ps-thumb-sub">Gradient • Blend</span></div></div>
+          <div class="ps-thumb" data-index="3"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Taper Cut</span><span class="ps-thumb-sub">Natural • Clean</span></div></div>
+          <div class="ps-thumb" data-index="4"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Undercut</span><span class="ps-thumb-sub">Edgy • Modern</span></div></div>
+          <div class="ps-thumb" data-index="5"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Pompadour</span><span class="ps-thumb-sub">Volume • Iconic</span></div></div>
+          <div class="ps-thumb" data-index="6"><img class="ps-thumb-img" src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&q=80&fit=crop" alt=""><div class="ps-thumb-info"><span class="ps-thumb-title">Beard Style</span><span class="ps-thumb-sub">Shape • Finish</span></div></div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /ps-container -->
+</section>
+
+        <!-- End:: Package Section -->
+        
+        <!-- Begin:: Client Section -->
+        <section class="clientSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="clientSlider owl-carousel">
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/1.png" alt=""/><img class="normal" src="images/client_logo/1.png" alt=""/></a>
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/2.png" alt=""/><img class="normal" src="images/client_logo/2.png" alt=""/></a>
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/3.png" alt=""/><img class="normal" src="images/client_logo/3.png" alt=""/></a>
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/4.png" alt=""/><img class="normal" src="images/client_logo/4.png" alt=""/></a>
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/5.png" alt=""/><img class="normal" src="images/client_logo/5.png" alt=""/></a>
+                            <a href="javascript:void(0);"><img class="hover" src="images/client_logo/1.png" alt=""/><img class="normal" src="images/client_logo/1.png" alt=""/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Client Section -->
+        
+        <!-- Begin:: Testimonial Section -->
+        <section class="commonSection testimonialSlider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimoanial_area">
+                            <div class="tw_testiSlider">
+                                <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                         I learned beautician course at Pretty Women Academy. Madhavi Mam teaches every topic very clearly and patiently. 
+        Her training style is friendly and easy to understand. I gained great confidence to start my career.
+    
+                                    </p>
+                                    <div class="test_author">
+                                        <span>Design Grue</span>
+                                        <p>Visakhapatnam</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                        The academy provides very good equipment and practical training. 
+        Every student gets personal guidance from Madhavi Mam. The environment feels very comfortable like family. 
+                                    </p>
+                                    <div class="test_author">
+                                        <span>Divya</span>
+                                        <p>Professional Makeup Student</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                         Pretty Women Academy is the best place to learn beauty courses. 
+        Madhavi Mam is very talented and supportive. She helps students learn both theory and practical skills perfectly.
+                                    </p>
+                                    <div class="test_author">
+                                        <span>Pooja</span>
+                                        <p>Hair & Skin Care Student</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                         I had a wonderful learning experience here. The training is professional and the staff treat everyone like family. 
+        This academy helped me build my career in the beauty industry.
+                                    </p>
+                                    <div class="test_author">
+                                        <span>Design Grue</span>
+                                        <p>California, USA</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> 
+                                        Quis ipsum suspendisse ultrices 
+                                    </p>
+                                    <div class="test_author">
+                                        <span>William Smith</span>
+                                        <p>New York, USA</p>
+                                    </div>
+                                </div> -->
+                                <div class="item">
+                                    <div class="quote">
+                                        <img src="images/home_01/quote.png" alt=""/>
+                                        <span></span><span></span><span></span><span></span>
+                                    </div>
+                                    <p class="quatation">
+                                         I had a wonderful learning experience here. The training is professional and the staff treat everyone like family. 
+        This academy helped me build my career in the beauty industry.
+                                    </p>
+                                    <div class="test_author">
+                                        <span>Anusha</span>
+                                        <p>Beautician Course Student </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testiNav">
+                                <div class="navitem">
+                                    <img src="images/home_01/t1.png" alt=""/>
+                                </div>
+                                <div class="navitem">
+                                    <img src="images/home_01/t2.png" alt=""/>
+                                </div>
+                                <div class="navitem">
+                                    <img src="images/home_01/t3.png" alt=""/>
+                                </div>
+                                <div class="navitem">
+                                    <img src="images/home_01/t1.png" alt=""/>
+                                </div>
+                                <div class="navitem">
+                                    <img src="images/home_01/t2.png" alt=""/>
+                                </div>
+                                <div class="navitem">
+                                    <img src="images/home_01/t3.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End:: Testimonial Section -->
+        
+        <!-- Begin:: Blog Section -->
+        <!-- <section class="commonSection blogSection">
+            <div class="layer_img l_04 move_anim">
+                <img src="images/bg/16.png" alt=""/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="sectionTitle text-center">
+                            <img src="images/icons/2.png" alt="">
+                            <h5 class="primaryFont">News About Our Company</h5>
+                            <h2>News <span class="colorPrimary fontWeight400">Feed</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog_item_01">
+                            <img src="images/blog/1.jpg" alt=""/>
+                            <div class="bp_content">
+                                <span>February 18, 2017</span>
+                                <h3><a href="single-blog.html">Spring is in the Air and and So Our These Amazing Spa Offers</a></h3>
+                                <a class="lr_more" href="single-blog.html">
+                                    Learn More
+                                    <svg width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog_item_01">
+                            <img src="images/blog/2.jpg" alt=""/>
+                            <div class="bp_content">
+                                <span>February 18, 2017</span>
+                                <h3><a href="single-blog.html">We giving Amazing special spa and message service for vip.</a></h3>
+                                <a class="lr_more" href="single-blog.html">
+                                    Learn More
+                                    <svg width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog_item_01">
+                            <img src="images/blog/3.jpg" alt=""/>
+                            <div class="bp_content">
+                                <span>February 18, 2017</span>
+                                <h3><a href="single-blog.html">We also offer outside special spa and message catering; take-away</a></h3>
+                                <a class="lr_more" href="single-blog.html">
+                                    Learn More
+                                    <svg width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End:: Blog Section -->
+        
+        <!-- Begin:: Instagram Section -->
+        <!-- <div class="my_instagram">
+            <a href="images/instagram/1.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/1.jpg" alt="instagram"></a>
+            <a href="images/instagram/2.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/2.jpg" alt="instagram"></a>
+            <a href="images/instagram/3.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/3.jpg" alt="instagram"></a>
+            <a href="images/instagram/4.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/4.jpg" alt="instagram"></a>
+            <a href="images/instagram/5.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/5.jpg" alt="instagram"></a>
+            <a href="images/instagram/6.jpg" data-rel="lightcase:myCollection:slideshow" class="popup_img"><img src="images/instagram/6.jpg" alt="instagram"></a>
+        </div> -->
+        <!-- End:: Instagram Section -->
+        
+        <!-- Begin:: Footer Section -->
+       <footer class="ft">
+  <div class="ft-in">
+    <div class="ft-nl rv">
+      <h4>Stay in the Know</h4>
+      <p>Beauty tips, course updates, and exclusive offers straight to your inbox.</p>
+      <form class="nl-form" onsubmit="return false;">
+        <input type="email" placeholder="Enter your email address…">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="ft-cols">
+      <div class="ft-brand rv">
+        <h3>Pretty Women</h3>
+        <p>Andhra Pradesh's premier beauty academy — empowering women through professional skill, confidence, and career-ready training since 2006.</p>
+        <a href="courses.html" class="ft-brand-btn"><i class="fas fa-arrow-right"></i> View Courses</a>
+      </div>
+      <div class="ft-col rv d2">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Academy</a></li>
+          <li><a href="courses.html">Our Courses</a></li>
+          <li><a href="booking.html">Book Demo Class</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="ft-col rv d3">
+        <h4>Contact</h4>
+        <div class="ft-ci"><div class="ft-ci-ic"><i class="fas fa-map-marker-alt"></i></div><div class="ft-ci-t">Pretty Women Beauty Academy<br>Srikakulam, Andhra Pradesh</div></div>
+        <div class="ft-ci"><div class="ft-ci-ic"><i class="fas fa-phone-alt"></i></div><div class="ft-ci-t">+91 XXXXXXXXXX</div></div>
+        <div class="ft-ci"><div class="ft-ci-ic"><i class="fas fa-clock"></i></div><div class="ft-ci-t">Mon – Sat: 9:00 AM – 7:00 PM</div></div>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <p>© 2026 <a href="#">Deva Penumajji</a>. All Rights Reserved. Pretty Women Beauty Academy.</p>
+      <div class="ft-socs">
+        <a href="#" class="ft-soc"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="ft-soc"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="ft-soc"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="ft-soc"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+        <!-- End:: Footer Section -->
+        <!-- <a href="https://wa.me/919392328600" target="_blank" id="whatsapp">
+    <i class="icofont-whatsapp"></i>
+</a> -->
+        <!-- Bact To Top -->
+        <a href="javascript:void(0);" id="backtotop"><i class="icofont-bubble-up"></i></a>
+        <!-- Bact To Top -->
+
+        <!-- Start Include All JS -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyBJtPMZ_LWZKuHTLq5o08KSncQufIhPU3o"></script>
+        <script src="js/gmaps.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.datetimepicker.full.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/lightcase.js"></script>
+        <script src="js/lightslider.js"></script>
+        <script src="js/tweenmax.min.js"></script>
+        <script src="js/theia-sticky-sidebar.min.js"></script>
+        <script src="js/ResizeSensor.min.js"></script>
+        
+        <!-- Slider Revolution Main Files -->
+        <script src="js/jquery.themepunch.tools.min.js"></script>
+        <script src="js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- Slider Revolution Extension -->
+        <script src="js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="js/extensions/revolution.extension.video.min.js"></script>
+
+        <script src="js/theme.js"></script>
+        <!-- End Include All JS -->
+         <!-- POPUP -->
+<div id="bookingPopup" class="popupOverlay">
+
+<div class="popupForm">
+
+<span class="closePopup" id="closePopup">&times;</span>
+
+<h2>Book Appointment</h2>
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+<label>Purpose of Visit</label>
+
+<select id="purpose" required>
+<option value="">Select Purpose</option>
+<option value="Service">For Service</option>
+<option value="Course">For Course</option>
+</select>
+
+<input type="hidden" id="time">
+<input type="hidden" id="day">
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</div>
+<script>
+
+/* AUTO DATE & TIME */
+
+let now = new Date();
+
+let time = now.toLocaleTimeString();
+let day = now.toLocaleDateString();
+
+document.getElementById("time").value = time;
+document.getElementById("day").value = day;
+
+
+/* FIRST VISIT CHECK */
+
+if(localStorage.getItem("formFilled") === "yes"){
+
+document.getElementById("closePopup").style.display="block";
+
+}
+
+
+/* CLOSE BUTTON */
+
+document.getElementById("closePopup").onclick=function(){
+
+document.getElementById("bookingPopup").style.display="none";
+
+}
+
+
+/* FORM SUBMIT */
+
+document.getElementById("bookingForm").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+let name = document.getElementById("name").value;
+let mobile = document.getElementById("mobile").value;
+let purpose = document.getElementById("purpose").value;
+let time = document.getElementById("time").value;
+let day = document.getElementById("day").value;
+
+let message =
+`New Appointment Booking
+
+Name: ${name}
+Mobile: ${mobile}
+Purpose: ${purpose}
+
+Visit Time: ${time}
+Visit Day: ${day}`;
+
+
+let phoneNumber = "919392328600";
+
+let url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+window.open(url, "_blank");
+
+
+/* SAVE FIRST SUBMISSION */
+
+localStorage.setItem("formFilled","yes");
+
+});
+
+</script>
+
+<!-- Mobile Bottom Navigation -->
+
+
+
+
+
+
+
+<script>
+// Render Lucide icons
+lucide.createIcons();
+
+(function(){
+  const items = document.querySelectorAll('.bnav-item');
+  const orb   = document.getElementById('bnavOrb');
+  const nav   = document.getElementById('bottomNav');
+
+  function moveOrb(el){
+    const navRect = nav.getBoundingClientRect();
+    const elRect  = el.getBoundingClientRect();
+    const center  = elRect.left - navRect.left + elRect.width / 2;
+    orb.style.left = (center - 28) + 'px';
+  }
+
+  // Set orb to active item on load
+  const initialActive = document.querySelector('.bnav-item.active');
+  if(initialActive) moveOrb(initialActive);
+
+  items.forEach(item => {
+    item.addEventListener('click', function(){
+      items.forEach(i => i.classList.remove('active'));
+      this.classList.add('active');
+      moveOrb(this);
+
+      // Micro-haptic on supported devices
+      if(navigator.vibrate) navigator.vibrate(8);
+    });
+
+    // Touch ripple feel
+    item.addEventListener('pointerdown', function(){
+      this.querySelector('.bnav-icon').style.transform = 'scale(0.92)';
+      setTimeout(() => {
+        // restore handled by class
+        this.querySelector('.bnav-icon').style.transform = '';
+      }, 120);
+    });
+  });
+
+  // Reposition orb on resize
+  window.addEventListener('resize', () => {
+    const active = document.querySelector('.bnav-item.active');
+    if(active) moveOrb(active);
+  }, { passive: true });
+})();
+</script>
+
+
+<script>
+    $('.slider-for').slick({
+slidesToShow:1,
+slidesToScroll:1,
+arrows:false,
+fade:true,
+asNavFor:'.slider-nav'
+});
+
+$('.slider-nav').slick({
+slidesToShow:4,
+slidesToScroll:1,
+asNavFor:'.slider-for',
+dots:false,
+centerMode:true,
+focusOnSelect:true
+});
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function () {
+$('.slider-for, .slider-nav').slick('setPosition');
+});
+</script>
+<sctipt>
+    
+</sctipt>
+<script>
+/* ── INTERSECTION OBSERVER FOR SCROLL ANIMATIONS ── */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.why-card, .stats-bar').forEach(el => observer.observe(el));
+
+/* ── ANIMATED COUNTERS ── */
+const statsObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.querySelectorAll('[data-target]').forEach(el => {
+        const target = parseInt(el.dataset.target);
+        const suffix = el.textContent.includes('%') ? '%' : '+';
+        let current = 0;
+        const step = target / 60;
+        const timer = setInterval(() => {
+          current = Math.min(current + step, target);
+          el.textContent = Math.floor(current) + suffix;
+          if (current >= target) clearInterval(timer);
+        }, 25);
+      });
+      statsObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.3 });
+
+const statsBar = document.getElementById('statsBar');
+if (statsBar) statsObserver.observe(statsBar);
+</script>
+<script>
+(function(){
+  'use strict';
+
+  /* ── TAB SWITCHING ── */
+  document.querySelectorAll('.ps-section .ps-tab-btn').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.preventDefault();
+      var target = btn.dataset.tab;
+      document.querySelectorAll('.ps-section .ps-tab-btn').forEach(function(b){ b.classList.remove('ps-active'); });
+      document.querySelectorAll('.ps-section .ps-tab-pane').forEach(function(p){ p.classList.remove('ps-show'); });
+      btn.classList.add('ps-active');
+      var pane = document.getElementById('ps-tab-' + target);
+      if(pane){
+        pane.classList.add('ps-show');
+        var sliderWrap = pane.querySelector('[data-slider]');
+        if(sliderWrap) setupSlider(sliderWrap);
+      }
+    });
+  });
+
+  /* ── SLIDER ── */
+  function setupSlider(wrap){
+    var slides = wrap.querySelectorAll('.ps-main-slide-inner');
+    var thumbs = wrap.querySelectorAll('.ps-thumb');
+    // reset to 0
+    slides.forEach(function(s){ s.classList.remove('ps-active'); });
+    thumbs.forEach(function(t){ t.classList.remove('ps-active'); });
+    if(slides[0]) slides[0].classList.add('ps-active');
+    if(thumbs[0]) thumbs[0].classList.add('ps-active');
+    var cur = 0;
+
+    function goTo(idx){
+      slides[cur].classList.remove('ps-active');
+      thumbs[cur].classList.remove('ps-active');
+      cur = ((idx % slides.length) + slides.length) % slides.length;
+      slides[cur].classList.add('ps-active');
+      thumbs[cur].classList.add('ps-active');
+      thumbs[cur].scrollIntoView({ behavior:'smooth', block:'nearest', inline:'nearest' });
+    }
+
+    thumbs.forEach(function(th){
+      th.addEventListener('click', function(){ goTo(parseInt(th.dataset.index)); });
+    });
+    wrap.querySelectorAll('.ps-prev').forEach(function(b){ b.onclick = function(){ goTo(cur-1); }; });
+    wrap.querySelectorAll('.ps-next').forEach(function(b){ b.onclick = function(){ goTo(cur+1); }; });
+  }
+
+  // Init all sliders
+  document.querySelectorAll('.ps-section [data-slider]').forEach(setupSlider);
+
+  /* ── SCROLL REVEAL ── */
+  if('IntersectionObserver' in window){
+    var sec = document.querySelector('.ps-section');
+    if(sec){
+      sec.style.cssText += 'opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease;';
+      new IntersectionObserver(function(entries, obs){
+        entries.forEach(function(e){
+          if(e.isIntersecting){
+            e.target.style.opacity='1';
+            e.target.style.transform='translateY(0)';
+            obs.unobserve(e.target);
+          }
+        });
+      },{ threshold:0.06 }).observe(sec);
+    }
+  }
+
+})();
+</script>
+    </body>
+</html>
